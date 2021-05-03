@@ -10,11 +10,11 @@
         <div id="resDiv"> 
             <h1>Reservations List</h1>
             <div id="resData">
+
             </div>
+            
             <button id= "printBtn">Print reservations List</button> 
-           
-</script>
-        </div>
+            </div>
     </center>
     </body>
 </html>
