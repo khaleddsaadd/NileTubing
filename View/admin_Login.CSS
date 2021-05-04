@@ -35,10 +35,8 @@ h1
  
 label
 {  
-    
+    font-size: 200%;  
     color:white;  
-    font-size: 200%;   
-    
 }  
 
 #Username
@@ -75,7 +73,8 @@ label
 }  
 
 img
-{ 
+{
+ 
     width: 150px;
     height:120px;
     float: left;
