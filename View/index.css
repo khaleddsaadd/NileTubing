@@ -15,6 +15,23 @@ a
     background-repeat: no-repeat;
     background-size: cover;
 }
+.introText 
+{
+    position: absolute;
+    font-family :"Bungee Outline";
+    color:white;
+    font-size: 70px;
+    left:30%;
+    Top:30%;
+
+}
+.NTLogo_Header
+{
+    position: absolute;
+    width:13%;
+    height:30%;
+    left:45%;
+}
 .body1 
 {
     position: absolute;

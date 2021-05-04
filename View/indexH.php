@@ -1,14 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html>     
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Bungee Outline' rel='stylesheet'>
+
     </head>
     <body>
-        <div class="indexBG">
-        </div>
 
+        <div class="indexBG">
+            <?php include 'userNavBar.php';?>
+            <img src="images/NTLogo.png" class="NTLogo_Header">
+            <label class="introText">GO WITH THE FLOW <br> NILE RIVER RUN</label>
+
+            
+        </div>
 
         <div class="body1">
             <div class="body1Vid">
