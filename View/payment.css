@@ -2,14 +2,6 @@ body{
     background: #e5e5e5;
     font-family: Hind;
     font-family: 'IBM Plex Mono', monospace;
-    /* position: absolute; */
-    /* width: 50.01px; */
-    /* height: 0px; */
-    /* left: 69px; */
-    /* top: 53px; */
-    
-    /* border: 2px solid #F1D158; */
-    /* transform: rotate(-1.15deg); */
     margin: 0;
     padding: 0;
 }
@@ -216,7 +208,7 @@ height: 45px;
 left: 64%;
 top: 40%;
 
-font-family: Hind;
+font-family: 'Hind', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 24px;
