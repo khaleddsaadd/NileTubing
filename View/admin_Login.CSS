@@ -1,0 +1,86 @@
+
+h1
+{
+    position: relative;
+    width: 50%;
+    height: 30%;
+    left: 10%;
+    
+    font-family: IBM Plex Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 280%;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.017em;
+    color: #CCA203;
+
+}
+
+#frame
+{
+    position: absolute;
+    width:30%;
+    height: 70%;
+    right:36%;
+    top:25%;
+    
+    background: #1F3351;
+    box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;  
+}
+
+ 
+label
+{  
+    
+    color:white;  
+    font-size: 200%;   
+    
+}  
+
+#Username
+{  
+    width: 60%;  
+    height: 5%;  
+    margin-top:3%; 
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+} 
+
+#Password
+{  
+    width: 60%;  
+    height: 5%;  
+    margin-top:3%; 
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+     
+    
+} 
+
+#loginbutton
+{  
+    width: 55%;  
+    height: 5%;    
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    background-color:F1D158; 
+    color: 1A3E92 ;
+}  
+
+img
+{ 
+    width: 150px;
+    height:120px;
+    float: left;
+    margin-top: 2%;
+    margin-left: 3%;
+
+}
+
