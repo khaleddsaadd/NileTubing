@@ -9,14 +9,21 @@
     </head>
     <body>
 
+<div class="container">
+    <div class="row">
+        <div class="row-md">
+
         <div class="indexBG">
-            <?php include 'userNavBar.php';?>
+            <?php include 'userNavBar.html';?>
             <img src="images/NTLogo.png" class="NTLogo_Header">
             <label class="introText">GO WITH THE FLOW <br> NILE RIVER RUN</label>
 
             
         </div>
 
+        </div>
+
+  <div class="row-md">
         <div class="body1">
             <div class="body1Vid">
                 <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
@@ -25,73 +32,81 @@
                 <h1>Demo Text</h1>
             </div>
         </div>
+  </div>
 
 
+<div class="row-md" id="body2">
         <div class="body2">
-            <div class="body2_1">
-                <center><label class="body2_titles">Our mission</label></center>
-                <br><br>
-                <label class="body2_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+            <div class="col-md-4" id="body2_1">
+                <center><p class="body2_titles">Our mission</p>
+                <br><br></center>
+                <p class="body2_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
                 ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                 nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                   officia deserunt mollit anim id est laborum. <label>
+                 nisi ut aliquip ex ea commodo consequat.  </p>
             </div>
-            <div class="body2_2">
-            <center><label class="body2_titles">Our Plan</label></center>
-                <br><br>
-                <label class="body2_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+
+            <div class="col-md-4" id="body2_2">
+            <center><p class="body2_titles">Our Plan</p>
+                <br><br></center>
+                <p class="body2_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
                 ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                 nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                   officia deserunt mollit anim id est laborum. <label>
+                 nisi ut aliquip ex ea commodo consequat.  </p>
             </div>
-            <div class="body2_3">
-            <center><label class="body2_titles">Our vision</label></center>
-                 <br><br>
-                 <label class="body2_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+
+            <div class="col-md-4" id="body2_3">
+            <center><p class="body2_titles">Our vision</p>
+                 <br><br></center>
+                 <p class="body2_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
                 ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                 nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                   officia deserunt mollit anim id est laborum. <label>
-            </div>
+                 nisi ut aliquip ex ea commodo consequat. </p>
+           
         </div>
+    </div>
+ </div>
 
 
-        <div class="Footer">
+<!-- <div class="row" id="f"> -->
+<div class="row-md" id="Footer">
             <div>
                  <img src="images/NTLogo.png" id="NTLogo">
             </div>
 
             <div class="footer_Div_Left">
-                <label class="footer_Text_Left">Phone: +2001112705325 </label>
+                <p class="footer_Text_Left">Phone: +2001112705325 </p>
                 <br><br>
-                <label class="footer_Text_Left">Email: Niletubing@gmail.com</label>
+                <p class="footer_Text_Left">Email: Niletubing@gmail.com</p>
             </div> 
         </div>
 
-        <div class="Footer2">
+        <div class="row-md" id="Footer2">
             <div class="socialmedia">
                 <ul class="social">
                 <li>
                     <a href="https://www.facebook.com/NileTubing" title="">
-                    <span class="icon fa fa-facebook"></span>
+                    <span class="icon fa fa-facebook " id="i"></span>
                     </a>
                 </li>
                 <li>
                     <a href="https://twitter.com/" title="">
-                    <span class="icon fa fa-instagram"></span>
+                    <span class="icon fa fa-instagram"  id="i"></span>
                     </a>
                 </li>
                 <li>
                     <a href="https://plus.google.com/" title="">
-                    <span class="icon fa fa-whatsapp"></span>
+                    <span class="icon fa fa-whatsapp"  id="i"></span>
                     </a>
                 </li>
                 </ul>
             </div>
 
         </div>
-    
+        </div>
+        
+
+       
+</div>
+<!-- </div> -->
+
+
     </body>
 </html>

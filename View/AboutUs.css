@@ -1,0 +1,90 @@
+#row1{
+ height: 100%;
+ width: 100%;
+ background-image: url("./Images/AboutUs.png");
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+/* background-color: black;*/
+}
+
+#AU{
+
+position: absolute;
+width: 516.04px;
+height: 263.02px;
+left: 15%;
+top: 18%;
+
+font-family: Hind;
+font-style: normal;
+font-weight: normal;
+font-size: 96px;
+line-height: 154px;
+display: flex;
+align-items: center;
+letter-spacing: -0.017em;
+
+color: #1F3351;
+}
+
+#rec2
+{
+	position: absolute;
+width: 80%;
+height: 80%;
+left: 10%;
+top: 120%;
+
+background: #FFFFFF;
+box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.1);
+}
+
+#p1{
+
+
+position: absolute;
+width: 80%;
+height: 20%;
+left: 5%;
+top: 5%;
+
+font-family: Hind;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 58px;
+display: flex;
+align-items: center;
+letter-spacing: -0.017em;
+
+color: #F1D158;
+}
+
+#L{
+
+position: absolute;
+left: 5%;
+top: 40%;
+width: 30%;
+height: 50%;
+
+}
+
+#p2{
+	position: absolute;
+width: 60%;
+height: 70%;
+left: 35%;
+top: 20%;
+
+font-family: Hind;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 58px;
+display: flex;
+align-items: center;
+letter-spacing: -0.017em;
+
+color: #000000;
+}
