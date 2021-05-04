@@ -1,102 +1,9 @@
 <!DOCTYPE html>
-<style>
-    body, html 
-    {
-        height: 100%;
-        margin: 0;
-    }
-    .indexBG
-    {
-        background-image: url("images/indexStart.jpg");
-        height: 100%; 
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .body1 
-    {
-        position: absolute;
-        width: 1291px;
-        height: 500px;
-        left: 115px;
-        top: 800px;
-        border: 5px solid rgba(192, 192, 192, 0.3);
-        box-shadow: 5px 5px rgb(224,224,224);
-    }
-    .body1Vid 
-    {
-        position: absolute;
-        top: 80px;
-        left: 20px;
-    }
-    .body1Text 
-    {
-        position: absolute;
-        width:300px;
-        height:300px;
-        top: 80px;
-        left: 800px;
-    }
-    .body2
-    {
-        position: absolute;
-        width: 1291px;
-        height: 500px;
-        left: 115px;
-        top: 1450px;
-    }
-    .body2_1
-    {
-        position: absolute;
-        width: 300px;
-        height: 350px;
-        border: 5px solid rgba(192, 192, 192, 0.3);
-        box-shadow: 5px 5px rgb(224,224,224);   
-    }
-    .body2_2
-    {
-        position: absolute;
-        width: 300px;
-        height: 350px;
-        left:500px;
-        border: 5px solid rgba(192, 192, 192, 0.3);
-        box-shadow: 5px 5px rgb(224,224,224);  
-    }
-    .body2_3
-    {
-        position: absolute;
-        width: 300px;
-        height: 350px;
-        right:0px;
-        border: 5px solid rgba(192, 192, 192, 0.3);
-        box-shadow: 5px 5px rgb(224,224,224);  
-    }
-    .body2_titles
-    {
-        font-family: 'Hind';
-        font-size: 18px;
-        font-weight: bold;
-    }
-    .body2_content
-    {
-        font-family: 'Hind';
-        font-size: 15px;
-        color: #CCA203
-    }
-    .Footer 
-    {
-        position: absolute;
-        width:100%;
-        height: 40%; 
-        top:280%;
-        background-color : #1F3351;
-
-    }
-</style>
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="images/index.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <div class="indexBG">
@@ -145,9 +52,39 @@
 
 
         <div class="Footer">
-            <img src=""
-        </div>
-        
+            <div>
+                 <img src="images/NTLogo.png" id="NTLogo">
+            </div>
 
+            <div class="footer_Div_Left">
+                <label class="footer_Text_Left">Phone: +2001112705325 </label>
+                <br><br>
+                <label class="footer_Text_Left">Email: Niletubing@gmail.com</label>
+            </div> 
+        </div>
+
+        <div class="Footer2">
+            <div class="socialmedia">
+                <ul class="social">
+                <li>
+                    <a href="https://www.facebook.com/NileTubing" title="">
+                    <span class="icon fa fa-facebook"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/" title="">
+                    <span class="icon fa fa-instagram"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://plus.google.com/" title="">
+                    <span class="icon fa fa-whatsapp"></span>
+                    </a>
+                </li>
+                </ul>
+            </div>
+
+        </div>
+    
     </body>
 </html>
