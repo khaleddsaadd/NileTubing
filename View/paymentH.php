@@ -10,7 +10,7 @@
     <!-- <div id="body">
     </div> -->
     <div class="body2">
-        <img src="menu icon.png" width="50" alt="">
+        <img src="Images/menu icon.png" width="50" alt="">
     </div>
 <div class="content-box"> 
     <h1 class="info">Fill Your Info To Checkout</h1>
@@ -29,15 +29,15 @@
     </select>
     <div class="payment-methods flex">
         <p>Payment Methods:</p>
-        <input type="radio" name="payment"> <img src="cash.jpg" alt=""> Cash Payment
-        <input type="radio" name="payment"> <img src="fawry.jpg" alt=""> <img src="vf cash.jpeg" alt=""> <img src="etisalat.jpg" alt=""> Fawry/Vodafone Cash/Etisalat
+        <input type="radio" name="payment"> <img src="Images/cash.jpg" alt=""> Cash Payment
+        <input type="radio" name="payment"> <img src="Images/fawry.jpg" alt=""> <img src="Images/vf cash.jpeg" alt=""> <img src="Images/etisalat.jpg" alt=""> Fawry/Vodafone Cash/Etisalat
     </div>
 </div>
 
 
 <div class="content-box edited">
     <div class="payment-methods edited flex">
-         <img src="fawry.jpg" alt=""> <img src="vf cash.jpeg" alt=""> <img src="etisalat.jpg" alt="">
+         <img src="Images/fawry.jpg" alt=""> <img src="Images/vf cash.jpeg" alt=""> <img src="Images/etisalat.jpg" alt="">
     </div>
     <p class="Mobileno-edited">Mobile number</p>
     <input type="text"class="Mobilerect-edited">
@@ -47,5 +47,4 @@
 </div>
 
 </body>
-
 </html>
