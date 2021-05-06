@@ -5,10 +5,10 @@
 }
 #rec1{
 	position: absolute;
-width: 490px;
-height: 529px;
+width: 35%;
+height: 70%;
 left: 8%;
-top: 20%;
+top: 15%;
 
 background: #FFFFFF;
 box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.15);
@@ -17,10 +17,10 @@ border-radius: 20px;}
 
 #price{
 	position: absolute;
-width: 137px;
-height: 121px;
+/*width: 100%;
+height: 10%;*/
 left: 15%;
-top: 1%;
+top: 5%;
 
 font-family: Hind;
 font-style: normal;
@@ -34,11 +34,11 @@ letter-spacing: -0.017em;
 color: #1F3351;}
 
 #per{
-	position: absolute;
-width: 137px;
-height: 121px;
+	position: relative;
+/*width: 137px;
+height: 121px;*/
 left: 16%;
-top: 10%;
+top: 20%;
 
 font-family: Hind;
 font-style: normal;
@@ -55,8 +55,8 @@ color: #1F3351;
 
 #date{
 	position: absolute;
-width: 115px;
-height: 46px;
+/*width: 20%;
+height: 20%;*/
 left: 15%;
 top: 30%;
 
@@ -73,8 +73,8 @@ color: #1F3351;
 }
 
 .date{position: absolute;
-width: 258px;
-height: 49px;
+width: 60%;
+height: 10%;
 left: 14%;
 top: 45%;
 
@@ -83,7 +83,7 @@ border-radius: 30px;}
 
 .form-control {
 	position: absolute;
-	top: 5px;
+	top: 5%;
 	left: 13%;
 
 	background-color: #ebecee;
@@ -95,13 +95,13 @@ border-radius: 30px;}
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	color: #3e485c;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .persons{
 	position: absolute;
-width: 115px;
-height: 46px;
+/*width: 115px;
+height: 46px;*/
 left: 15%;
 top: 55%;
 
@@ -122,19 +122,20 @@ color: #1F3351;
 #quantity
 {
 position: absolute;
-width: 137px;
-height: 49px;
+width: 30%;
+height: 10%;
 left: 14%;
 top: 70%;
 text-align: center;
 background: #EEEFF3;
 border-radius: 30px;
+font-size: 18px;
 }
 
 #cap{
 	position: absolute;
-width: 188px;
-height: 47px;
+width: 30%;
+height: 10%;
 left: 50%;
 top: 67%;
 
@@ -236,11 +237,11 @@ color: #F1D158;
 #rec2
 {
 	position: absolute;
-width: 1154px;
-height: 706px;
+width: 85%;
+height: 100%;
 left: 7%;
-top: 105%;
-margin-left:20px;
+top: 120%;
+/*margin-left:20px;*/
 
 background: #FFFFFF;
 box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.15);
