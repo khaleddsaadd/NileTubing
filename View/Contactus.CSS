@@ -1,6 +1,5 @@
-#row1{
+    #row1{
   
-        
         background-image: url("./Images/ContactUs.png");
         background-size: 70% 100%;
         background-repeat: no-repeat;
@@ -20,9 +19,7 @@
         float:left;
         left: -300px;
         top:10%;
-       
-        
-        
+         
         font-family: Hind;
         font-style: normal;
         font-weight: normal;
@@ -36,3 +33,46 @@
         color: #1F3351;
     }
     
+    #box{
+
+        position: absolute;
+        width: 80%;
+        height: 80%;
+        left: 10%;
+        top: 100%;
+
+        background: #FFFFFF;
+        box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.1);
+    }
+
+    #name{
+        position: absolute;
+        width: 472px;
+        height: 80px;
+        float:left;
+        left:20%;
+        top: 110%;
+
+        font-family: Hind;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 58px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: -0.017em;
+
+        color: #1F3351;
+    }
+
+    #text1{
+        position: absolute;
+        width: 758px;
+        height: 73px;
+        float:left;
+        left:1%;
+        top: 110%;
+
+        background: #E4E3E3;
+    }
