@@ -17,7 +17,7 @@
         width: 516.04px;
         height: 263.02px;
         float:left;
-        left: -300px;
+        left: -250px;
         top:10%;
          
         font-family: Hind;
@@ -80,3 +80,9 @@
         background: #E4E3E3;
     }    
  
+    #nav{
+        position: absolute;
+        float:left;
+       left: -350px;
+        
+    }
