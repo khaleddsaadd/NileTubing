@@ -17,8 +17,6 @@
             <?php include 'userNavBar.html';?>
             <img src="images/NTLogo.png" class="NTLogo_Header">
             <label class="introText">GO WITH THE FLOW <br> NILE RIVER RUN</label>
-
-            
         </div>
 
         </div>
@@ -76,7 +74,11 @@
                 <br><br>
                 <p class="footer_Text_Left">Email: Niletubing@gmail.com</p>
             </div> 
-        </div>
+            <img src="images/Loc.png" id="locImg">
+            <div class="footer_Div_Right">
+                <label class="footer_Text_Right">Egypt <br> Cairo Drops: <br> Dokki <br> Maadi <br> Zamalek <br> Moneeb </label>
+            </div>
+</div>
 
         <div class="row-md" id="Footer2">
             <div class="socialmedia">
