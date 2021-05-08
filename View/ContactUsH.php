@@ -11,18 +11,16 @@
     
 <div class="container">
 <div class="row">
+
         <div class="row-md">
-        
-        <div class="indexBG">
-         <?php include 'userNavBar.html';?>
-        <h1 id="CU">Contact Us </h1>
-	    </div>
+            <div class="indexBG">
+                <?php include 'userNavBar.html';?>
+                <h1 id="CU">Contact Us </h1>
+	        </div>
         
         </div>  
 
-
-
-    <div class="row-md" id="box"> 
+        <div class="row-md" id="box"> 
             <form>   
                 <br><br><br><br><br>
                
@@ -68,13 +66,11 @@
                 <input type="submit" name="send" id="send" value="Send">    
 
             </form>
-    </div>
-    </div> 
-    
-
+        </div>
+</div> 
 
 </div>
-</div>
+
 
 
 
