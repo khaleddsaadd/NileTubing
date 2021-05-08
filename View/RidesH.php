@@ -22,7 +22,7 @@
                         <h1 class="indexText">Nile Tubing rides</h1>
                         </div>
                         <div class="col-row" id="img">
-                        <img src="images/T.png">
+                        <img src="images/TS.png">
                         </div> 
 
 
@@ -86,7 +86,7 @@
                         <div class="col">
                         <label class="OfferEventText">Upcoming Events </label>
                         <div>
-                                
+
                         <div class="col" id="line2"> </div>
 
                     </div>
