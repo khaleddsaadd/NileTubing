@@ -9,6 +9,7 @@
 
 
 <body>
+	<?php include 'userNavBar.html';?>
 <div class="container">
 	<div class="row">
 		<div class="row-md" id="row1">
