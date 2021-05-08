@@ -14,10 +14,10 @@
         <div class="row-md">
 
         <div class="indexBG"> </div>
-        <img src="images/Rides.png" class="ridesimg">
+    
 
 
-        
+
         </div>
     </div>
 </div>
