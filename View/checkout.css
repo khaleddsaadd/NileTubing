@@ -5,6 +5,20 @@ body{
     margin: 0;
     padding: 0;
 }
+.indexBG
+{
+
+       
+        position: absolute;
+        width: 1440px;
+        height: 613px;
+        left: 0px;
+        top: 106px;
+    
+        background: rgba(217, 223, 251, 0.5);
+        filter: blur(40px);
+        
+}
 
 * {
     font-family: 'IBM Plex Mono', monospace;
