@@ -24,8 +24,8 @@
   <div class="row-md">
         <div class="body1">
             <div class="body1Vid">
-                <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
-            </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/jYB89ijP6oY" title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            </div>
             <div class="body1Text">
                 <h1>Demo Text</h1>
             </div>

@@ -26,7 +26,8 @@
      
     <p class="total">Total</p>
     <input type="text" class="input totalrect">
-    <button class="rect">Checkout</button>
+    <a href="paymentH.php"><button class="rect">Checkout</button></a>
+
 </div>
 </body>
 </html>

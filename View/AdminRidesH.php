@@ -12,43 +12,85 @@
     
     </head>
     <body>
+        <?php include 'userNavBar.html';?>
+
         <div class="container">
         <div class="row">
                 <div class="row-md">
+                        
                     <div class="indexBG">
-                        <?php include 'userNavBar.html';?>
+                            
+                        <div class="col-row"> 
                         <h1 class="indexText">Nile Tubing rides</h1>
+                        </div>
+                        <div class="col-row" id="img">
+                        <img src="images/TS.png">
+                        </div> 
+
+
                     </div>
                 </div>
-        </div>
+        
                 <div class="row-md">
                      <div class="body2">
-                        <label class="TripTitle">Single Tubing  <a href="#"><span class="glyphicon glyphicon-pencil"></span></a></label> 
+
+                        <div class="col">    
+                        <p id="TripTitle">Single Tubing <a href="#"><span class="glyphicon glyphicon-pencil"></span></a></p> <br><br><br>
                         <h1>-->Trip image from database<--</h1>
+                        </div>
+
+                        <div class="col" id="line"> </div> 
+
                     </div>
+
                 </div>
                 <div class="row-md">
                      <div class="body3">
-                        <label class="TripTitle">Couple Tubing  <a href="#"><span class="glyphicon glyphicon-pencil"></span></a></label> 
+
+                     <div class="col">  
+                        <p id="TripTitle">Couple Tubing <a href="#"><span class="glyphicon glyphicon-pencil"></span></a> </p> <br><br><br>
                         <h1>-->Trip image from database<--</h1>
-                    </div>
+                        </div>
+                   
+
+                    <div class="col" id="line"> </div> 
+                   
                 </div>
                 <div class="row-md">
                      <div class="body4">
-                        <label class="TripTitle">Group Tubing  <a href="#"><span class="glyphicon glyphicon-pencil"></span></a></label> 
+
+                     <div class="col"> 
+                        <p id="TripTitle">Group Tubing <a href="#"><span class="glyphicon glyphicon-pencil"></span></a></p> <br><br><br>
                         <h1>-->Trip image from database<--</h1>
+                        </div>
+
+                        <div class="col" id="line"> </div>
+
+
                     </div>
-                </div>
+                
                 <div class="row-md">
                     <div class="body5">
                         <br><br>
+                        <div class="col">
                         <label class="OfferEventText">Special Offers <a href="#"><span class="glyphicon glyphicon-pencil"></span></a></label>
+                        </div>
+
+                        <div class="col" id="line2"> </div>
+
+                        </div>
+
                     </div>
                 </div>
                 <div class="row-md">
                     <div class="body6">
                         <br><br>
+                        <div class="col">
                         <label class="OfferEventText">Upcoming Events <a href="#"><span class="glyphicon glyphicon-pencil"></span></a></label>
+                        <div>
+
+                        <div class="col" id="line2"> </div>
+
                     </div>
                 </div>
 

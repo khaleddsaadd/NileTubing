@@ -10,14 +10,20 @@ body, html
         width: 100%;
         height: 100%;
         
-        background-image: url("images/tubes.png");
+        background-image: url("images/back.png");
         background-position: center;
         background-repeat: no-repeat;
-        background-size: 92% 90%;
-
-        
+        background-size: 100% 100%;
 }
 
+#img
+{       
+
+    position: absolute;
+    left:12%;
+    top:10%;
+                
+}
 
 .indexText
 {
@@ -42,21 +48,28 @@ body, html
 .body2
 {
     position: absolute;
-    Top:100%;
+    Top:110%;
     Left:5%;
 }
 
-.TripTitle
-{
-    font-family: 'Hind';font-size: 30px;
-    background-color: #EEEFF3;
-    border-radius: 20%;
-}
+
+
+#TripTitle{
+        position: absolute;
+        width: 60%;
+        height: 30%;
+        padding-top: 2%;
+        text-align: center;
+        font-family: 'Hind';font-size: 32px;
+        background-color: #EEEFF3;
+        border-radius: 80px;
+        }
 .OfferEventText
 {
-    
+    position: absolute;
     font-family: 'Hind';
     font-size: 30px;
+    left:5%;
 }
 
 .body3
@@ -74,11 +87,7 @@ body, html
     Left:5%;
     border-radius: 20%;
 }
-.AddTrip 
-{
-    width:30%;
-    height: 30%;
-}
+
 .body5
 {
     position: absolute;
@@ -101,3 +110,31 @@ body, html
     box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2)
     
 }
+
+#line{
+
+        position: absolute;
+        width: 596px;
+        height: 0px;
+        left: 666px;
+        top: 20%;
+
+        border: 3px solid #F1D158;
+        background-color: #F1D158;
+        transform: rotate(-0.1deg);
+
+       }
+
+#line2{
+
+        position: absolute;
+        width: 596px;
+        height: 0px;
+        left: 400px;
+        top: 10%;
+
+        border: 3px solid #F1D158;
+        background-color: #F1D158;
+        transform: rotate(-0.1deg);
+
+       }
