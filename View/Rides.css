@@ -1,0 +1,57 @@
+.indexBG
+{
+
+       
+        position: absolute;
+        width: 1440px;
+        height: 613px;
+        left: 0px;
+        top: 106px;
+    
+        background: rgba(217, 223, 251, 0.5);
+        filter: blur(40px);
+        
+}
+
+
+#box
+{
+position: absolute;
+width: 1319px;
+height: 1449px;
+left: 5px;
+top: 719px;
+}
+
+#ST
+{
+
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 10%;
+    top: 60%;
+
+    font-family: Hind;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 96px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.017em;
+
+    color: #000000;
+
+}
+
+#line{
+        position: absolute;
+        width: 596px;
+        height: 0px;
+        left: 10%;
+        top: 60%;
+        border: 3px solid #F1D158;
+        transform: rotate(-0.1deg);
+}
