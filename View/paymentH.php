@@ -9,7 +9,9 @@
 <body>
     <div class="row-md">
       <?php include 'userNavBar.html';?> 
-             
+    </div>
+    <div class= "logo" id="logo">
+        <img src="NTLogo.png" alt="">
     </div>
     <div class="content-box"> 
     
