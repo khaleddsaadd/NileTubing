@@ -1,92 +1,83 @@
-body{
+.body{
     background: #e5e5e5;
-    font-family: Hind;
     font-family: 'IBM Plex Mono', monospace;
     margin: 0;
     padding: 0;
 }
-.indexBG
-{
-
-       
-        position: absolute;
-        width: 1440px;
-        height: 613px;
-        left: 0px;
-        top: 106px;
-    
-        background: rgba(217, 223, 251, 0.5);
-        filter: blur(40px);
-        
-}
-
-
-* {
-    font-family: 'IBM Plex Mono', monospace;
-}
 .body2{
     position: absolute;
-width: 50px;
-height: 0px;
-left: 69px;
-top: 53px;
+    width: 50px;
+    height: 0px;
+    left: 69px;
+    top: 53px;
+}
+.logo{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 5%;
+    top: 0%;
+    transition: 0.5s all;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
 }
 .info{
-width: 100%;
-height: 104px;
-font-family: IBM Plex Mono;
-font-style: normal;
-font-weight: bold;
-font-size: 22px;
-text-align: center;
-letter-spacing: -0.017em;
-color: #000000;
+    width: 100%;
+    height: 104px;
+    font-family: IBM Plex Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: -0.017em;
+    color: #000000;
 }
 .Fname{
     position: absolute;
-width: 250px;
-height: 45px;
-left: 23%;
-top: 20%;
+    width: 250px;
+    height: 45px;
+    left: 23%;
+    top: 20%;
 
-font-family:'Hind', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 38px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: -0.017em;
+    font-family:'Hind', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.017em;
 
-color: #1F3351;
+    color: #1F3351;
 }
 .Fnamerect{
-left: 20%;
-top: 30%;
-
+    left: 20%;
+    top: 30%;
 }
 .Lname{
     position: absolute;
-width: 250px;
-height: 45px;
-left: 43%;
-top: 20%;
+    width: 250px;
+    height: 45px;
+    left: 43%;
+    top: 20%;
 
-font-family: 'Hind', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 38px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: -0.017em;
-color: #1F3351;
+    font-family: 'Hind', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.017em;
+    color: #1F3351;
 }
 .Lnamerect{
-left: 40%;
-top: 30%;
+    left: 40%;
+    top: 30%;
 }
 
 .input {
@@ -101,29 +92,29 @@ top: 30%;
 
 .Mobileno{
     position: absolute;
-width: 250px;
-height: 45px;
-left: 62%;
-top: 20%;
+    width: 250px;
+    height: 45px;
+    left: 62%;
+    top: 20%;
 
-font-family: 'Hind', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 38px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: -0.017em;
+    font-family: 'Hind', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.017em;
 
-color: #1F3351;
+    color: #1F3351;
 }
 .Mobileno-edited{
     position: absolute;
     width: 250px;
     height: 45px;
-    left: 16%;
-    top: 130%;
+    left: 21%;
+    top: 120%;
     
     font-family: 'Hind', sans-serif;
     font-style: normal;
@@ -139,15 +130,15 @@ color: #1F3351;
 }
 .Mobilerect-edited{
     position: absolute;
-width: 200px;
-height: 50px;
-left: 15%;
-top: 140%;
+    width: 200px;
+    height: 50px;
+    left: 20%;
+    top: 130%;
 
-background: #FFFFFF;
-border: 1px solid #1A3E92;
-box-sizing: border-box;
-border-radius: 20px;
+    background: #FFFFFF;
+    border: 1px solid #1A3E92;
+    box-sizing: border-box;
+    border-radius: 20px;
 }
 .Mobilerect
 {   
@@ -156,84 +147,84 @@ border-radius: 20px;
 }
 .Email{
     position: absolute;
-width: 229px;
-height: 45px;
-left: 22%;
-top: 40%;
+    width: 229px;
+    height: 45px;
+    left: 22%;
+    top: 40%;
 
-font-family: 'Hind', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 38px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: -0.017em;
+    font-family: 'Hind', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.017em;
 
-color: #1F3351;
+    color: #1F3351;
 }
 .Email-edited{
     position: absolute;
-width: 229px;
-height: 45px;
-left: 36%;
-top: 130%;
+    width: 229px;
+    height: 45px;
+    left: 42%;
+    top: 120%;
 
-font-family: 'Hind', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 38px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: -0.017em;
+    font-family: 'Hind', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.017em;
 
-color: #1F3351;
+    color: #1F3351;
 }
 .Emailrect-edited{
     position: absolute;
-width: 500px;
-height: 50px;
-left: 35%;
-top: 140%;
+    width: 500px;
+    height: 50px;
+    left: 40%;
+    top: 130%;
 
-background: #FFFFFF;
-border: 1px solid #1A3E92;
-box-sizing: border-box;
-border-radius: 20px;
+    background: #FFFFFF;
+    border: 1px solid #1A3E92;
+    box-sizing: border-box;
+    border-radius: 20px;
 }
 .Emailrect{
     position: absolute;
-width: 500px;
-height: 50px;
-left: 20%;
-top: 50%;
+    width: 500px;
+    height: 50px;
+    left: 20%;
+    top: 50%;
 
-background: #FFFFFF;
-border: 1px solid #1A3E92;
-box-sizing: border-box;
-border-radius: 20px;
+    background: #FFFFFF;
+    border: 1px solid #1A3E92;
+    box-sizing: border-box;
+    border-radius: 20px;
 }
 .Gender{
     position: absolute;
-width: 250px;
-height: 45px;
-left: 64%;
-top: 40%;
+    width: 250px;
+    height: 45px;
+    left: 64%;
+    top: 40%;
 
-font-family: 'Hind', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 38px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: -0.017em;
+    font-family: 'Hind', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.017em;
 
-color: #1F3351;
+    color: #1F3351;
 }
 .Genderrect{
     left: 60%;
@@ -241,7 +232,6 @@ color: #1F3351;
 }
 
 .content-box {
-    /* position: absolute; */
     width: 70%;
     height: 500px;
     margin: 0 auto;
@@ -260,11 +250,11 @@ color: #1F3351;
 
 #rect2{
     position: absolute;
-width: 1228px;
-height: 97px;
-left: 46px;
-top: 795px;
-background-color: white;
+    width: 1228px;
+    height: 97px;
+    left: 46px;
+    top: 795px;
+    background-color: white;
 }
 .flex {
     display: flex;
@@ -293,18 +283,19 @@ background-color: white;
 }
 .rect4{
     position: absolute;
-width: 120px;
-height: 40px;
-left: 75%;
-top: 150%;
-background: #1A3E92;
-border-radius: 20px;
-border: none;
-color: white;
-cursor: pointer;
-transition: .1s all;
+    width: 120px;
+    height: 40px;
+    left: 75%;
+    top: 140%;
+    background: #1A3E92;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: .1s all;
 }
 
 .rect4:hover {
     background-color: #133074;
 }
+
