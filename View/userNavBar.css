@@ -13,11 +13,17 @@ body {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+  position:fixed;
+  top:0;
+  z-index:100;
 }
 .nn 
 {
   padding-left: 1%;
   padding-top: 1%;
+  position:fixed;
+  top:0;
+  z-index:100;
 }
 .sidenav a {
   

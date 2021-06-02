@@ -34,7 +34,7 @@
 
                         <div class="col">    
                         <p id="TripTitle">Single Tubing </p> <br><br><br>
-                        <h1>-->Trip image from database<--</h1>
+                        <a href="RideH.php"><h1>-->Trip image from database<--</h1></a>
                         </div>
 
                         <div class="col" id="line"> </div> 
@@ -47,7 +47,7 @@
 
                      <div class="col">  
                         <p id="TripTitle">Couple Tubing  </p> <br><br><br>
-                        <h1>-->Trip image from database<--</h1>
+                        <a href="RideH.php"><h1>-->Trip image from database<--</h1></a>
                         </div>
                    
 
@@ -59,7 +59,7 @@
 
                      <div class="col"> 
                         <p id="TripTitle">Group Tubing <p> </p> <br><br><br>
-                        <h1>-->Trip image from database<--</h1>
+                        <a href="RideH.php"><h1>-->Trip image from database<--</h1></a>
                         </div>
 
                         <div class="col" id="line"> </div>
