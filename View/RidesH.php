@@ -1,4 +1,6 @@
-<?php require_once("RidesClass.php");?>
+<?php require_once("RidesClass.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -58,7 +60,9 @@
                 <label class="dtext"><?php echo $single->get_description();?></label><br>
                 <br>
                 <label class="Price"><?php echo $single->get_price();?> EGP</label><br>
-                <a class="BookNow" href="RideH.php?id=<?php echo $single_id?>">Book Now</a>
+                <a class="BookNow" href="RideH.php?id=<?php echo $single_id?>">
+                <button type="button" class="btn btn-primary">Book now</button></a>
+
             </div>
         </div>
       </div>
@@ -86,7 +90,8 @@
                 <label class="dtext"><?php echo $couple->get_description();?></label><br>
                 <br>
                 <label class="Price"><?php echo $couple->get_price();?> EGP</label><br>
-                <a class="BookNow" href="RideH.php?id=<?php echo $couple_id?>">Book Now</a>
+                <a class="BookNow" href="RideH.php?id=<?php echo $couple_id?>">
+                <button type="button" class="btn btn-primary">Book now</button></a>
             </div>
         </div>
       </div>
@@ -113,7 +118,8 @@
                 <label class="dtext"><?php echo $group->get_description();?></label><br>
                 <br>
                 <label class="Price"><?php echo $group->get_price();?> EGP</label><br>
-                <a class="BookNow" href="RideH.php?id=<?php echo $group_id?>">Book Now</a>
+                <a class="BookNow" href="RideH.php?id=<?php echo $group_id?>">
+                <button type="button" class="btn btn-primary">Book now</button></a>
             </div>
         </div>
       </div>
@@ -123,7 +129,7 @@
 <div id="body5">
     <div class="container-fluid">
         <div class="row">
-            <label class="OfferEventText">Special Offers </label>
+            <label id="o" class="OfferEventText">Special Offers </label>
         </div>
     </div>
 </div>
