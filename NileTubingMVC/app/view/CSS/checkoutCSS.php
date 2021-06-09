@@ -87,8 +87,8 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
     }
     .Trip{
         position: absolute;
-        width: 250px;
-        height: 45px;
+        width: 15%;
+        height: 12%;
         left: 31.5%;
         top: 42%;
 
@@ -110,8 +110,8 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
     }
     .date{
         position: absolute;
-        width: 250px;
-        height: 45px;
+        width: 15%;
+        height: 12%;
         left: 44.5%;
         top: 42%;
         font-family: 'Hind', sans-serif;
@@ -132,8 +132,8 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
     }
     .price{
         position: absolute;
-        width: 250px;
-        height: 45px;
+        width: 15%;
+        height: 12%;
         left: 56.5%;
         top: 42%;
 
@@ -154,8 +154,8 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
     }
     .quantity{
         position: absolute;
-        width: 250px;
-        height: 45px;
+        width: 15%;
+        height: 12%;
         left: 64%;
         top: 42%;
 
@@ -177,8 +177,8 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
     }
     .total{
         position: absolute;
-        width: 250px;
-        height: 45px;
+        width: 15%;
+        height: 12%;
         left: 76%;
         top: 42%;
 
