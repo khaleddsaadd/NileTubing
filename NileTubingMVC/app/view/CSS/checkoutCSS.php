@@ -1,13 +1,31 @@
 <?php
+require_once(__ROOT__ . "model/checkoutModel.php");
+require_once(__ROOT__ . "controller/checkoutController.php");
+require_once(__ROOT__ . "view/checkoutView.php");
+
+$img = __ROOT__.'/view/Images/NTLogo.png';
+
 ?>
 <style>
-    body
+    .body
     {
         background: #e5e5e5;
         font-family: Hind;
         font-family: 'IBM Plex Mono', monospace;
         margin: 0;
         padding: 0;
+    }
+    .column 
+    {
+        float: left;
+        width: 50%;
+        padding: 10px;
+    }
+    .row:after 
+    {
+        content: "";
+        display: table;
+        clear: both;
     }
     .logo
     {
@@ -33,7 +51,7 @@
         letter-spacing: -0.017em;
         color: #000000;
     }
-    .container-fluid {
+   /* .container-fluid {
         width: 70%;
         height: 500px;
         margin: 0 auto;
@@ -41,7 +59,7 @@
         padding: 10px;
         margin-top: 50px;
         box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
-    }
+    }*/
     .body2{
         position: absolute;
         width: 50px;
@@ -71,8 +89,8 @@
         position: absolute;
         width: 250px;
         height: 45px;
-        left: 32%;
-        top: 28%;
+        left: 31.5%;
+        top: 42%;
 
         font-family:'Hind', sans-serif;
         font-style: normal;
@@ -88,14 +106,14 @@
     }
     .Triprect{
         left: 28%;
-        top: 40%;
+        top: 50%;
     }
     .date{
         position: absolute;
         width: 250px;
         height: 45px;
-        left: 45%;
-        top: 28%;
+        left: 44.5%;
+        top: 42%;
         font-family: 'Hind', sans-serif;
         font-style: normal;
         font-weight: normal;
@@ -110,14 +128,14 @@
     .daterect
     {   
         left: 41%;
-        top: 40%;
+        top: 50%;
     }
     .price{
         position: absolute;
         width: 250px;
         height: 45px;
-        left: 57%;
-        top: 28%;
+        left: 56.5%;
+        top: 42%;
 
         font-family: 'Hind', sans-serif;
         font-style: normal;
@@ -132,14 +150,14 @@
     }
     .pricerect{
         left: 55%;
-        top: 40%;    
+        top: 50%;    
     }
     .quantity{
         position: absolute;
         width: 250px;
         height: 45px;
         left: 64%;
-        top: 28%;
+        top: 42%;
 
         font-family: 'Hind', sans-serif;
         font-style: normal;
@@ -155,14 +173,14 @@
     }
     .quantityrect{
         left: 64%;
-        top:  40%;
+        top:  50%;
     }
     .total{
         position: absolute;
         width: 250px;
         height: 45px;
         left: 76%;
-        top: 28%;
+        top: 42%;
 
         font-family:'Hind', sans-serif;
         font-style: normal;
@@ -178,14 +196,14 @@
     }
     .totalrect{
         left: 73%;
-        top: 40%;
+        top: 50%;
     }
     .rect{
         position: absolute;
         width: 120px;
         height: 40px;
         left: 76%;
-        top: 80%;
+        top: 70%;
         background: #1A3E92;
         border-radius: 20px;
         border: none;

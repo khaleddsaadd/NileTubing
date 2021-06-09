@@ -1,6 +1,6 @@
 <?php
 require_once(__ROOT__ . "model/Model.php");
-class checkouts extends Model
+class checkout extends Model
 {
 
     public $ID;
