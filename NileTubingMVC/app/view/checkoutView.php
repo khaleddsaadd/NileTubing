@@ -48,7 +48,7 @@ class checkouts extends View
                                         </div>             
                                         <div class = "row">
                                             <div class = "column">
-                                                <a href="paymentH.php"><button class="rect">Checkout</button></a>
+                                                <a href="payment.php"><button class="rect">Checkout</button></a>
                                             </div>
                                         </div>     
                                 </div>
