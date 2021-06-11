@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="userNavBar.css">
+</head>
+<body>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <br>
+  <a href="index.php">Home</a> <br> <br> <br> <br> <br>
+  <a href="Rides.php">Rides</a> <br> <br> <br> <br> <br>
+  <a href="AboutUs.php">About us</a> <br> <br> <br> <br> <br>
+  <a href="ContactUs.php">Contact us</a> 
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()" class="nn">&#9776;</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "150px";
+  document.getElementById("logo").style.left= "10%";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("logo").style.left= "5%";
+}
+</script>
+   
+</body>
+</html> 

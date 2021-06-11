@@ -1,0 +1,93 @@
+body{
+  		
+    background-size: 100%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+  	}
+    #navbar{
+        position: fixed;
+        transition: 1s;
+}
+  .navbar-brand{
+  		color: #fff;
+  		font-size: 45px;
+  		font-family: Germania;
+  		cursor: pointer;
+  	}
+  	.icon-bar{
+  background-color: #000;
+
+}
+#navlogo 
+{
+    height: 100px;
+    width: 100px;
+}
+  	.nav{
+  		font-family: Lithos Pro;
+  		padding: 10px 20px;
+  	}
+
+  	.nav li{
+  		padding: 10px;
+  		cursor: pointer;
+  		font-size: 16px;
+        font-weight: bolder;
+  	}
+    .nav li:after{
+      content: '';
+      display: block;
+        border-bottom: 2px solid blue;
+        transform: scaleX(0);
+        transition: .2s ease-in-out;
+    }
+  	.nav li:hover:after{
+  	   transform: scaleX(1);
+  	}
+    .para{
+      min-height: 500px;
+    }
+    .para h3{
+      text-align: center;
+      margin-top: 15%;
+      color: #fff;
+      font-family: nyala;
+      font-size: 44px;
+    }
+    body::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  
+}
+#aa,#bb,#cc,#dd 
+{
+    color: #1F3351;
+    
+}
+#aa,#bb,#cc,#dd :hover
+{
+    color: "";
+}
+
+body::-webkit-scrollbar
+{
+  width: 14px;
+}
+
+body::-webkit-scrollbar-thumb
+{
+  
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.5);
+  background:  #501e27;
+}
+@media(max-width: 720px){
+  body{
+    background-size: 100% 100%;
+  }
+  .navbar-collapse{
+  background: white;
+}
+  .para{
+    min-height: 800px;
+  }
+}

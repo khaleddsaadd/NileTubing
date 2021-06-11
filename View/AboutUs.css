@@ -6,7 +6,9 @@
  background-repeat: no-repeat;
 /* background-color: black;*/
 }
+#ro2{
 
+}
 #AU{
 
 position: absolute;
@@ -34,7 +36,6 @@ width: 80%;
 height: 80%;
 left: 10%;
 top: 120%;
-
 background: #FFFFFF;
 box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.1);
 }
@@ -42,16 +43,18 @@ box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.1);
 #p1{
 
 
-position: absolute;
-width: 80%;
-height: 20%;
+/*position: absolute;
 left: 5%;
-top: 5%;
+top: 15%;*/
+width: 80%;
+max-width: 80%;
+height: 20%;
+max-height: 20%;
 
 font-family: Hind;
 font-style: normal;
 font-weight: 500;
-font-size: 30px;
+font-size: 20px;
 line-height: 58px;
 display: flex;
 align-items: center;
@@ -62,25 +65,27 @@ color: #F1D158;
 
 #L{
 
-position: absolute;
+/*position: absolute;
 left: 5%;
-top: 40%;
+top: 32%;
 width: 30%;
-height: 50%;
+height: 60%;*/
 
 }
 
 #p2{
 	position: absolute;
 width: 60%;
+max-width: 60%;
 height: 70%;
+max-height: 70%;
 left: 35%;
-top: 20%;
+top: 30%;
 
 font-family: Hind;
 font-style: normal;
 font-weight: normal;
-font-size: 30px;
+font-size: 20px;
 line-height: 58px;
 display: flex;
 align-items: center;

@@ -1,44 +1,62 @@
+<?php require_once("RidesClass.php");?>
 <!DOCTYPE html>
-<html>     
-    <head>
-        <title>Home Page</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="index.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href='https://fonts.googleapis.com/css?family=Bungee Outline' rel='stylesheet'>
-    </head>
-    <body>
+        <link href='https://fonts.googleapis.com/css?family=Hind' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="indexnewCSS.php">
+<?php include 'indexnewCSS.php';?>
 
-<div class="container">
-    <div class="row">
-        <div class="row-md">
+<?php include 'userNavBar.html';?>
 
-        <div class="indexBG">
-            <?php include 'userNavBar.html';?>
-            <img src="images/NTLogo.png" class="NTLogo_Header">
-            <label class="introText">GO WITH THE FLOW <br> NILE RIVER RUN</label>
-        </div>
+</head>
+<body>
+    <div class="bg">
+        <label class="introText">GO WITH THE FLOW <br> NILE RIVER RUN</label>
+    </div>
+    
+        <div class="container-fluid">
+          <div class="row" id="row1">
+            <div id="body1">
 
-        </div>
-
-  <div class="row-md">
-        <div class="body1">
-            <div class="body1Vid">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/jYB89ijP6oY" title="YouTube video player" frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
+            <div class="col-sm-3 col-md-7">
+                <div class="body1Vid">
+                    <?php 
+                        $HeaderVid = new HomeVideos(1);
+                    ?>
+                <video id="vid"width="80%" height="400" controls>
+                  <source src="Videos/<?php echo $HeaderVid->get_video(); ?>.mp4" type="video/mp4">
+                  <source src="Videos/<?php echo $HeaderVid->get_video(); ?>.ogg" type="video/ogg">
+                  Your browser does not support the video tag.
+                </video>
             </div>
-            <div class="body1Text">
-                <h1>Demo Text</h1>
+            </div>
+            <div class="col-sm-9 col-md-4">
+                <div class="desc">
+                    <label>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                 nisi ut aliquip ex ea commodo consequat. </label>
+                </div>
+            </div>
+          </div>
             </div>
         </div>
-  </div>
-
-
-<div class="row-md" id="body2">
+    
+    <div class="container">
+        <div class="row-md" id="body2">
         <div class="body2">
             <div class="col-md-4" id="body2_1">
                 <center><p class="body2_titles">Our mission</p>
                 <br><br></center>
+            
                 <p class="body2_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
                 ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
                  nisi ut aliquip ex ea commodo consequat.  </p>
@@ -58,14 +76,13 @@
                  <p class="body2_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
                 ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
                  nisi ut aliquip ex ea commodo consequat. </p>
-           
         </div>
     </div>
- </div>
-
-
-<!-- <div class="row" id="f"> -->
-<div class="row-md" id="Footer">
+            </div>
+    </div>
+    
+       
+    <div class="row-md" id="Footer">
             <div>
                  <img src="images/NTLogo.png" id="NTLogo">
             </div>
@@ -106,13 +123,10 @@
             </div>
 
         </div>
-        </div>
-        
-
-       
-</div>
-<!-- </div> -->
-
-
-    </body>
+    
+    
+    
+   
+    
+</body>
 </html>
