@@ -8,17 +8,17 @@ $controller=new RidesController($model);
 $v = new rView($controller, $model);
 echo $v->output();
 
-$model = new Rides(1);
+$model = new Rides('Single');
 $controller=new RidesController($model);
 $v = new rView($controller, $model);
 echo $v->single();
 
-$model = new Rides(2);
+$model = new Rides('Couple');
 $controller=new RidesController($model);
 $v = new rView($controller, $model);
 echo $v->couple();
 
-$model = new Rides(3);
+$model = new Rides('Group');
 $controller=new RidesController($model);
 $v = new rView($controller, $model);
 echo $v->group();

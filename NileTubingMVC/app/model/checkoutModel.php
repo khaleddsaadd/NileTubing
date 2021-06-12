@@ -6,10 +6,8 @@ class checkout extends Model
     public $ID;
     public $name;
     public $price;
-    
-   
   
-  public static function viewAll()
+  public function viewAll()
   {
     $database = Database::getInstance();
     $mysql=$database->getConnection();
@@ -28,5 +26,10 @@ class checkout extends Model
     }
     return $Result; 
   }
+    public function printList()
+    {
+        
+    }
+    
 }  
 ?>

@@ -17,9 +17,9 @@ class Rides extends Model
             $this->readRide($id);
         }
     }   
-    function readRide($id)
+    function readRide($type)
     {
-        $sql = "SELECT * FROM rides where id=".$id;
+        $sql = "SELECT * FROM rides where R_Type='$type'";
 		$result = $this->db->query($sql);
 		if ($result->num_rows == 1)
         {
