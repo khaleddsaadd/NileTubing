@@ -1,8 +1,11 @@
+
+<?php require_once("RidesClass.php");?>
 <!DOCTYPE html>
 <html>     
     <head>
-        <link rel="stylesheet" href="AdminRidesH.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="adminR.css">
+     
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href='https://fonts.googleapis.com/css?family=Bungee Outline' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Hind' rel='stylesheet'>
@@ -13,7 +16,7 @@
     </head>
     <body>
         <?php include 'userNavBar.html';?>
-
+     
         <div class="container">
         <div class="row">
                 <div class="row-md">
@@ -24,7 +27,7 @@
                         <h1 class="indexText">Nile Tubing rides</h1>
                         </div>
                         <div class="col-row" id="img">
-                        <img src="images/TS.png">
+                        <img class="Tubes" src="images/TS.png">
                         </div> 
 
 
@@ -95,5 +98,6 @@
                 </div>
 
         </div>
+</div>
     </body>
 </html>       

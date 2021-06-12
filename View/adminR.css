@@ -1,22 +1,37 @@
-body, html 
-{
-    height: 100%;
-    margin: 0;
-}
+
 
 .indexBG
 {
         position: absolute;
-        width: 100%;
+        width: 110%;
         height: 100%;
         
         background-image: url("images/back.png");
         background-position: center;
         background-repeat: no-repeat;
-        background-size: 100% 100%;
+        background-size: 100% 90%;
+        
         Left:0%;
 }
+.Timg
+{
+    padding-left: 5%;
+    width:80%;
+    height: 400px;
 
+}
+
+.Tubes{
+    
+    position: relative;
+    width: 70%;
+    height: 100%;
+    left:17%;
+    margin-top: 17%;
+   
+    
+    
+}
 #img
 {       
 
@@ -29,18 +44,18 @@ body, html
 .indexText
 {
     position: absolute;
-    width: 516.04px;
-    height: 263.02px;
+    width: 45%;
+    height: 50%;
     float:left;
     left: 9%;
     top:20%;
      
     font-family: Hind;
     font-style: normal;
-    font-weight: normal;
-    font-size: 85px;
-    line-height: 154px;
-    display: flex;
+    font-weight: bolder;
+    font-size: 350%;
+    line-height: 100%;
+    display:flex;
     align-items: center;
     letter-spacing: -0.017em;
 
@@ -57,20 +72,23 @@ body, html
 
 #TripTitle{
         position: absolute;
-        width: 60%;
-        height: 30%;
-        padding-top: 2%;
+        width: 50%;
+        height: 50%;
+        padding-top: 3%;
+        padding-left: 2%;
         text-align: center;
-        font-family: 'Hind';font-size: 32px;
-        background-color: #EEEFF3;
+        font-family: 'Hind';
+        font-size: 190%;
+        background-color:  #EEEFF3;
         border-radius: 80px;
         }
 .OfferEventText
 {
     position: absolute;
     font-family: 'Hind';
-    font-size: 30px;
+    font-size:190%;
     left:5%;
+    padding-top: 4%;
 }
 
 .body3
@@ -115,9 +133,9 @@ body, html
 #line{
 
         position: absolute;
-        width: 596px;
-        height: 0px;
-        left: 666px;
+        width: 50%;
+        height: 1%;
+        left: 60%;
         top: 20%;
 
         border: 3px solid #F1D158;
@@ -129,10 +147,10 @@ body, html
 #line2{
 
         position: absolute;
-        width: 596px;
-        height: 0px;
-        left: 400px;
-        top: 10%;
+        width: 65%;
+        height: 1%;
+        left: 30%;
+        
 
         border: 3px solid #F1D158;
         background-color: #F1D158;
