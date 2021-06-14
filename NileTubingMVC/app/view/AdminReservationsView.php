@@ -58,9 +58,6 @@ class resView extends View
               <td>'.$user->date.'</td>
               <td>'.$user->quantity.'</td>
               <td>'.$user->price.' EGP</td>
-
-              
-
             </tr>
             </div>';
         }
