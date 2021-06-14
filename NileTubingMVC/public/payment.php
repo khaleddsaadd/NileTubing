@@ -8,4 +8,7 @@ $model= new payment(1);
 $controller = new paymentController($model);
 $checkouts = new payments($controller, $model);
 echo $checkouts->output();
+$name = $_GET['id'];
+$date=$_GET['date'];
+$q = $_GET['q'];    
 ?>

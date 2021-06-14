@@ -4,6 +4,9 @@ require_once(__ROOT__ . "controller/HomeController.php");
 require_once(__ROOT__ . "view/HomeView.php");
 
 $img = __ROOT__.'/view/Images/indexStart.jpg';
+
+
+
 ?>
 <style>
     body, html 

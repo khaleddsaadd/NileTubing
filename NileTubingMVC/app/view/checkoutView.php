@@ -49,7 +49,7 @@ class checkouts extends View
                                         </div>             
                                         <div class = "row">
                                             <div class = "column">
-                                                <a href="payment.php"><button class="rect">Checkout</button></a>
+                                                <a href="payment.php?id='.$this->model->get_id().'&date='.$this->model->get_date().'&q='.$this->model->get_quantity().'"><button class="rect">Checkout</button></a>
                                             </div>
                                         </div>     
                                 </div>
