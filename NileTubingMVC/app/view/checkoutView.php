@@ -31,6 +31,7 @@ class checkouts extends View
                                     <h1 class="info">Proceed To Checkout</h1>    
                                         <div class = "column">
                                             <p class="Trip">Trip</p>
+                        
                                             <p class="date">date</p>
                                             <p class="price">Price</p>
                                             <p class="quantity">Quantity</p>
@@ -39,7 +40,8 @@ class checkouts extends View
                                 </div>
                                         <div class= "row">
                                             <div class = "coulumn "> 
-                                                <input type="text" class="input Triprect"> 
+                                                
+                                                <label class= "input Triprect">'.$this->model->get_name().'</label>
                                                 <input type="text" class="input daterect">
                                                 <input type="text" class="input2 pricerect">
                                                 <input type="number" class="input2 quantityrect">

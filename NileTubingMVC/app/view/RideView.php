@@ -43,7 +43,7 @@ class rideView
 		<p id="per">per person</p>
 	
 		<p id="date"> Ride Date/Time - Remaining capacity</p>
-		<form action="/action_page.php" method="post">
+		<form action="checkout.php" method="post">
 		<div class="date">
 		<select id="rideinfo" name="rideDate">
 			'.$list.'</select>

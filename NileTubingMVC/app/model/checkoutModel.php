@@ -2,34 +2,47 @@
 require_once(__ROOT__ . "model/Model.php");
 class checkout extends Model
 {
-
-    public $ID;
-    public $name;
-    public $price;
-  
-  public function viewAll()
+  /*public $tittle = 'Checkout';*/
+  public $id;
+  public $tripname;
+  public $tripdate;
+  public $tripprice;
+  public $tripquantity;
+  public $totalprice;
+  function __construct($id="")
   {
-    $database = Database::getInstance();
-    $mysql=$database->getConnection();
-    $database=mysqli_query($mysql,"SET NAMES 'utf8'");
-    $sql="SELECT * FROM `rides`";
-    $DataSet = mysqli_query($mysql,$sql) ;
-	$i=0;
-    $Result;
-    while ($row = mysqli_fetch_array($DataSet))
-    {
-      $object= new Trip();
-      $object->name=$row['trip'];
-      $object->price=$row["price"];
-      $Result[$i]=$object;
-      $i++;
-    }
-    return $Result; 
+		$this->db = $this->connect();
+        if($id!="")
+        {
+            $this->id = $id;
+            $this->readRide($id);
+        }
+  }  
+  function readRide($id)
+  {
+        $sql = "SELECT * FROM rides where id='$id'";
+		    $result = $this->db->query($sql);
+		    if ($result->num_rows == 1)
+        {
+            $row = $this->db->fetchRow();
+            $this->id = $row["id"];
+            $this->tripname = $row["Name"];
+            $this->tripprice = $row["Price"];
+            /*$this->image = $row["Image"];*/
+        }   
   }
-    public function printList()
+  function get_id()
     {
-        
+        return $this->id;
     }
-    
+    function get_name()
+    {
+        return $this->tripname;
+    }
+    function get_price()
+    {
+        return $this->tripprice;
+    }
+
 }  
 ?>
