@@ -66,6 +66,10 @@ class RideInfo extends Model
         }
         return;
     }
+    function get_id()
+    {
+        return $this->rideID;
+    }
     
 }
 ?>

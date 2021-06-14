@@ -30,8 +30,7 @@ class res extends Model
                 $this->payment=$row["PaymentMethod"];
                 $this->date = $row["Date_Time"];
                 $this->quantity = $row["Quantity"];
-                $this->price = $row["TotalPrice"];
-
+                $this->price = $row["TotalPrice"];  
             }  
     }
     }
