@@ -42,10 +42,10 @@ class checkouts extends View
                                             <div class = "coulumn "> 
                                                 
                                                 <label class= "input Triprect">'.$this->model->get_name().'</label>
-                                                <input type="text" class="input daterect">
-                                                <input type="text" class="input2 pricerect">
-                                                <input type="number" class="input2 quantityrect">
-                                                <input type="text" class="input totalrect">
+                                                <label class="input daterect">'.$this->model->get_date().'</label>
+                                                <label class="input2 pricerect">'.$this->model->get_price().'</label>
+                                                <label class="input2 quantityrect">'.$this->model->get_quantity().'</label>
+                                                <label class="input totalrect">'.$this->model->totalprice().'</label>
                                             </div> 
                                         </div>             
                                         <div class = "row">
