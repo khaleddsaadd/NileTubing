@@ -40,12 +40,11 @@ class checkouts extends View
                                 </div>
                                         <div class= "row">
                                             <div class = "coulumn "> 
-                                                
                                                 <label class= "input Triprect">'.$this->model->get_name().'</label>
                                                 <label class="input daterect">'.$this->model->get_date().'</label>
-                                                <label class="input2 pricerect">'.$this->model->get_price().'</label>
-                                                <label class="input2 quantityrect">'.$this->model->get_quantity().'</label>
-                                                <label class="input totalrect">'.$this->model->totalprice().'</label>
+                                                <label class="input2 pricerect">'.$this->model->get_price().' EGP</label>
+                                                <label class="input4 quantityrect">'.$this->model->get_quantity().'</label>
+                                                <label class="input3 totalrect">'.$this->model->totalprice().' EGP</label>
                                             </div> 
                                         </div>             
                                         <div class = "row">
@@ -54,6 +53,11 @@ class checkouts extends View
                                             </div>
                                         </div>     
                                 </div>
+                    </div>
+                </div>
+                <div class="body2">
+                    <div id="i">
+                        <img class=""src="'.__ROOT__.'/view/Images/'.$this->model->get_image().'">
                     </div>
                 </div>';
         $str.='';
