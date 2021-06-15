@@ -9,12 +9,15 @@ class checkout extends Model
   public $tripprice;
   public $tripquantity;
   public $totalprice;
-  function __construct($id="")
+  public $tripimage;
+  function __construct($id="",$date,$quantity)
   {
 		$this->db = $this->connect();
         if($id!="")
         {
             $this->id = $id;
+            $this->tripdate = $date;
+            $this->tripquantity = $quantity;
             $this->readRide($id);
         }
   }  
@@ -28,7 +31,7 @@ class checkout extends Model
             $this->id = $row["id"];
             $this->tripname = $row["Name"];
             $this->tripprice = $row["Price"];
-            /*$this->image = $row["Image"];*/
+            $this->tripimage = $row["Image"];
         }   
   }
   function get_id()
@@ -42,6 +45,24 @@ class checkout extends Model
     function get_price()
     {
         return $this->tripprice;
+    }
+    function get_date()
+    {
+        return $this->tripdate;
+    }
+    function get_quantity()
+    {
+        return $this->tripquantity;
+    }
+    function totalprice()
+    {
+       return $this->totalprice= $this->tripprice*$this->tripquantity;
+        
+        /*return $this->totalprice;*/
+    }
+    function get_image()
+    {
+      return $this->tripimage;
     }
 
 }  

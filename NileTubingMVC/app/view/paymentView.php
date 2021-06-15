@@ -12,6 +12,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="HandheldFriendly" content="true">
+  
   <?php include 'NavBoot/index.html';?>
 </head>
 
@@ -28,6 +29,7 @@ class payments extends View
                     <div class="container-fluid">
                         <div class="row"> 
                             <h1 class="info">Fill Your Info To Checkout</h1>
+                            <form method="POST">
                                 <div class= "column">
                                     <p class="Fname">First Name</p>
                                     <p class="Lname">Last Name</p>
@@ -36,9 +38,9 @@ class payments extends View
                         </div>
                         <div class ="row">
                             <div class = "column">    
-                                <input type="text" class="input Fnamerect">
-                                <input type="text"class="input Lnamerect"> 
-                                <input type="text"class="input Mobilerect">
+                                <input type="text" name="FName" class="input Fnamerect" required="">
+                                <input type="text" name="LName" class="input Lnamerect" required=""> 
+                                <input type="text" name="Mobile" class="input Mobilerect" required="">
                             </div>
                         </div>
                         <div class ="row">
@@ -49,8 +51,8 @@ class payments extends View
                         </div>
                         <div class ="row">
                             <div class = "column">
-                                <input type="text"class="Emailrect">
-                                <select name="" class="input Genderrect">
+                                <input type="text" name="Mail" class="Emailrect" required="">
+                                <select name="Gender" class="input Genderrect">
                                     <option value="">Male</option>
                                     <option value="">Female</option>
                                 </select>
@@ -60,8 +62,8 @@ class payments extends View
                             <div class = "column">
                                 <div class="payment-methods flex">
                                     <p>Payment Methods:</p>
-                                    <input type="radio" name="payment"> <img src="'.__ROOT__.'/view/Images/cash.jpg" alt=""> Cash Payment
-                                    <input type="radio" name="payment"> <img src="'.__ROOT__.'/view/Images/fawry.jpg" alt=""> <img src="'.__ROOT__.'/view/Images/vf cash.jpeg" alt=""> <img src="'.__ROOT__.'/view/Images/etisalat.jpg" alt=""> Fawry/Vodafone Cash/Etisalat
+                                    <input type="radio" name="payment" value="Cash"  checked="checked"> <img src="'.__ROOT__.'/view/Images/cash.jpg" alt=""> Cash Payment
+                                    <input type="radio" name="payment" value="Fawry"> <img src="'.__ROOT__.'/view/Images/fawry.jpg" alt=""> <img src="'.__ROOT__.'/view/Images/vf cash.jpeg" alt=""> <img src="'.__ROOT__.'/view/Images/etisalat.jpg" alt=""> Fawry/Vodafone Cash/Etisalat
                                 </div>
                             </div>
                         </div>
@@ -71,25 +73,15 @@ class payments extends View
 
                 $str .='<div class="body">
                             <div class="container-fluid">
-                                <div class="row">
-                                    <div class="payment-methods edited flex">
-                                        <img src="'.__ROOT__.'/view/Images/fawry.jpg" alt=""> <img src="'.__ROOT__.'/view/Images/vf cash.jpeg" alt=""> <img src="'.__ROOT__.'/view/Images/etisalat.jpg" alt="">
-                                    </div>
-                                    <div class ="column">
-                                        <p class="Mobileno-edited">Mobile number</p>
-                                        <p class="Email-edited">Email address</p>
-                                    </div>
-                                </div>
+                                
+                                
                                 <div class="row">
                                     <div class="column">
-                                        <input type="text"class="Mobilerect-edited">
-                                        <input type="text"class="Emailrect-edited">
+                                        <input type="submit" class="rect4" value="Print your ticket">
                                     </div>
-                                </div> 
-                                <div class="row">
-                                    <div class="column">
-                                        <button class="rect4">Print PDF</button>
-                                    </div>
+                                    </form>
+                                    <a href="Rides.php"><button class="cancelBtn">Cancel Payment</button></a>
+
                                 </div>
                             </div>
                     </div>

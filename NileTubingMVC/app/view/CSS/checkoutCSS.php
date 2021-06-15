@@ -56,12 +56,13 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
         width: 50px;
         height: 0px;
         left: 69px;
-        top: 53px;
+        top: 42%;
     }
     .input {
         position: absolute;
         width: 150px;
         height: 50px;
+        padding-left: 1%;
         background: #FFFFFF;
         border: 1px solid #1A3E92;
         box-sizing: border-box;
@@ -71,10 +72,41 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
         position: absolute;
         width: 100px;
         height: 50px;
+        padding-top:1%;
+        padding-left: 1%;
         background: #FFFFFF;
         border: 1px solid #1A3E92;
         box-sizing: border-box;
         border-radius: 20px;
+    }
+    .input3 {
+        position: absolute;
+        width: 150px;
+        height: 50px;
+        padding-top:1%;
+        padding-left: 3%;
+        background: #FFFFFF;
+        border: 1px solid #1A3E92;
+        box-sizing: border-box;
+        border-radius: 20px;
+    }
+    .input4{
+        position: absolute;
+        width: 100px;
+        height: 50px;
+        padding-top:1%;
+        padding-left: 2%;
+        background: #FFFFFF;
+        border: 1px solid #1A3E92;
+        box-sizing: border-box;
+        border-radius: 20px;
+    }
+    #i
+    {
+        width:50px;
+        height:50px;
+        padding-top:5%;
+        padding-left:5%
     }
     .Trip{
         position: absolute;
@@ -98,6 +130,7 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
     .Triprect{
         left: 28%;
         top: 50%;
+        
     }
     .date{
         position: absolute;

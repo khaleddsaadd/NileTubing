@@ -306,20 +306,43 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
     }
     .rect4{
         position: absolute;
-        width: 120px;
+        width: 170px;
         height: 40px;
         left: 75%;
-        top: 120%;
+        top: 68%;
         background: #1A3E92;
         border-radius: 20px;
         border: none;
         color: white;
         cursor: pointer;
         transition: .1s all;
+        font-weight:bolder;
+
+    }
+    .cancelBtn
+    {
+        position: absolute;
+        width: 170px;
+        height: 40px;
+        left: 63%;
+        top: 68%;
+        background: white;
+        border-radius: 20px;
+        border: none;
+        color: black;
+        cursor: pointer;
+        transition: .1s all;
+        font-weight:bolder;
     }
 
     .rect4:hover 
     {
         background-color: #133074;
     }
+    #Title
+    {
+        padding-left:40%;
+    }
+ 
+
 </style>

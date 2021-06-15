@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href='https://fonts.googleapis.com/css?family=Bungee Outline' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Hind' rel='stylesheet'>
+		
 <?php include 'NavBoot/index.html';?>
 	
 </head>
@@ -30,7 +31,7 @@ class rideView
 		';}
 		$review="<ul>";
 		foreach ($reviews as $rev) {
-			$review.='<li>Reviewer Name: '.$rev->Name.'</li><li>Review: '.$rev->Review.'</li>';
+			$review.='<li>'.$rev->Name.': '.$rev->Review.'</li>';
 		}
 		$review.='</ul>';
 
