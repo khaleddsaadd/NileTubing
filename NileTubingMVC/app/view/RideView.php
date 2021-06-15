@@ -31,7 +31,7 @@ class rideView
 		';}
 		$review="<ul>";
 		foreach ($reviews as $rev) {
-			$review.='<li>Reviewer Name: '.$rev->Name.'</li><li>Review: '.$rev->Review.'</li>';
+			$review.='<li>'.$rev->Name.': '.$rev->Review.'</li>';
 		}
 		$review.='</ul>';
 
