@@ -40,7 +40,7 @@ class contactV extends view
     public function form()
     {
         $str="";
-        $str.=' <div class="total"><form method="POST" action="" class="contact-form row" style="padding-top:40%; margin-left:10%;" id="box">
+        $str.=' <div class="total"><form method="POST" action="" class="contact-form " style="padding-top:40%; margin-left:10%;" id="box">
  
       <div class="form-field col-lg-6">
          <input id="name" name="name" class="input-text js-input" type="text" required>

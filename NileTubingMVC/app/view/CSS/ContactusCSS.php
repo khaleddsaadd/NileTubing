@@ -127,8 +127,7 @@ $Cimg= __ROOT__.'/view/Images/ContactUs.png';
       position: absolute;
       height:20%;
       padding-top:10%;
-      margin-top:20%;
-      
+      left: 20px;
 
   }
   
