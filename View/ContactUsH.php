@@ -15,7 +15,7 @@
         <div class="row-md">
             <div class="indexBG">
                 <?php include 'userNavBar.html';?>
-                <h1 id="CU">Contact Us </h1>
+                <h1 id="CU" class="CU">Contact Us </h1>
 	        </div>
         
         </div>  

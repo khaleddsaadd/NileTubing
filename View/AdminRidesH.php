@@ -1,5 +1,4 @@
 
-<?php require_once("RidesClass.php");?>
 <!DOCTYPE html>
 <html>     
     <head>
