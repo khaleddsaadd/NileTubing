@@ -265,7 +265,6 @@ color: #F1D158;
 {
 	position: absolute;
 width: 85%;
-height: 100%;
 left: 10%;
 top: 120%;
 /*margin-left:20px;*/
