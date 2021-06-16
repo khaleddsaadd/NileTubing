@@ -29,35 +29,33 @@ class checkouts extends View
                     <div class="container-fluid">
                                 <div class = "row">    
                                     <h1 class="info">Proceed To Checkout</h1>    
-                                        <div class = "column">
-                                            <p class="Trip">Trip</p>
-                        
-                                            <p class="date">date</p>
-                                            <p class="price">Price</p>
-                                            <p class="quantity">Quantity</p>
-                                            <p class="total">Total</p>
-                                        </div>
+                                    <div class = "column">
+                                        <p class="Trip">Trip</p>
+                                        <p class="date">date</p>
+                                        <p class="price">Price</p>
+                                        <p class="quantity">Quantity</p>
+                                        <p class="total">Total</p>
+                                    </div>
                                 </div>
-                                        <div class= "row">
-                                            <div class = "coulumn "> 
-                                                <label class= "input Triprect">'.$this->model->get_name().'</label>
-                                                <label class="input daterect">'.$this->model->get_date().'</label>
-                                                <label class="input2 pricerect">'.$this->model->get_price().' EGP</label>
-                                                <label class="input4 quantityrect">'.$this->model->get_quantity().'</label>
-                                                <label class="input3 totalrect">'.$this->model->totalprice().' EGP</label>
-                                            </div> 
-                                        </div>             
-                                        <div class = "row">
-                                            <div class = "column">
-                                                <a href="payment.php?id='.$this->model->get_id().'&date='.$this->model->get_date().'&q='.$this->model->get_quantity().'"><button class="rect">Checkout</button></a>
-                                            </div>
-                                        </div>     
-                                </div>
+                               <div class= "row">
+                                   <div class = "coulumn "> 
+                                        <label class= "input Triprect">'.$this->model->get_name().'</label>
+                                        <label class="input daterect">'.$this->model->get_date().'</label>
+                                        <label class="input2 pricerect">'.$this->model->get_price().' EGP</label>
+                                        <label class="input4 quantityrect">'.$this->model->get_quantity().'</label>
+                                        <label class="input3 totalrect">'.$this->model->totalprice().' EGP</label>
+                                    </div> 
+                                </div>             
+                                <div class = "row">
+                                    <div class = "column">
+                                        <a href="payment.php?id='.$this->model->get_id().'&date='.$this->model->get_date().'&q='.$this->model->get_quantity().'"><button class="rect">Checkout</button></a>
+                                    </div>
+                               </div>     
                     </div>
                 </div>
-                <div class="body2">
+                <div class="img">
                     <div id="i">
-                        <img class=""src="'.__ROOT__.'/view/Images/'.$this->model->get_image().'">
+                        <img class="img"src="'.__ROOT__.'/view/Images/'.$this->model->get_image().'">
                     </div>
                 </div>';
         $str.='';

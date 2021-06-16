@@ -108,6 +108,14 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
         padding-top:5%;
         padding-left:5%
     }
+    .img
+    {
+        width:250px;
+        height:500%;
+        padding-top:7%;
+        padding-left:5%;
+        border-radius:50%;
+    }
     .Trip{
         position: absolute;
         width: 15%;
@@ -239,30 +247,6 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
     .rect:hover {
         background-color: #133074;
     }
-    @media (max-width: 1060px) 
-    {
-        .body
-        {
-            background: #e5e5e5;
-            font-family: Hind;
-            font-family: 'IBM Plex Mono', monospace;
-            margin: 0;
-            padding: 0;
-        }
-        /*    .column 
-        {
-            float: left;
-            width: 50%;
-            padding: 10px;
-        }
-        .row:after 
-        {
-            content: "";
-            display: table;
-            clear: both;
-        }*/
-        
-    }
     @media (orientation: landscape) and (max-width: 500px) 
     {
         .body
@@ -333,6 +317,20 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
             border: 1px solid #1A3E92;
             box-sizing: border-box;
             border-radius: 20px;
+        }
+        #i
+        {
+            width:50px;
+            height:50px;
+            padding-top:5%;
+            padding-left:5%
+        }
+        .img
+        {
+            width:250px;
+            height:500%;
+            padding-top:5%;
+            padding-left:5%
         }
         .Trip{
             position: absolute;
@@ -517,8 +515,8 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
             position: absolute;
             width: 50px;
             height: 0px;
-            left: 69px;
-            top: 53px;
+            left: 25%;
+            top: 25%;
         }
         .input {
             position: absolute;
@@ -537,6 +535,20 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
             border: 1px solid #1A3E92;
             box-sizing: border-box;
             border-radius: 20px;
+        }
+        #i
+        {
+            width:50px;
+            height:50px;
+            padding-top:15%;
+            padding-left:5%
+        }
+        .img
+        {
+            width:250px;
+            height:500%;
+            padding-top:2%;
+            padding-left:18%
         }
         .Trip{
             position: absolute;
