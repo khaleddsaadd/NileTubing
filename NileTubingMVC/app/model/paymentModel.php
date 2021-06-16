@@ -96,16 +96,31 @@ class payment extends Model
                       echo '<hr>
                       <label class="tprice">Total Price: '.$Total.' EGP</label>';
                     }
-
-                    
-
-               echo  "</div>";
-            echo '<script>
-            createPDF();
-        </script>';
+                    echo  "</div>";
+                    echo '<script>
+                    createPDF();
+                </script>';
 		} 
 		else
         {
+		}
+    }
+    function decrease($RideID,$Quantity,$CDate,$timeT)
+    {
+        $TotalCapacity;
+        $sql = "SELECT * FROM ridesinfo  where rideDate='$CDate' AND rideTime='$timeT' AND rideID='$RideID'";
+		$result = $this->db->query($sql);
+		if ($result->num_rows == 1)
+        {
+            $row = $this->db->fetchRow();
+            $TotalCapacity = $row['rideCapacity'];
+        }
+        $Remaining = $TotalCapacity - $Quantity;
+        $sql = "UPDATE ridesinfo set currentCapacity='$Remaining' where rideDate='$CDate' AND rideTime='$timeT' AND rideID='$RideID'";
+        echo $sql;
+		if($this->db->query($sql) === true){
+			echo "updated successfully.";
+		} else{
 		}
     }
 }

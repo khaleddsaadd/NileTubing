@@ -47,6 +47,19 @@ class paymentController extends Controller
         $Date=$_GET['date'];
         $Quantity = $_GET['q'];
         $this->model->SaveReservation($FName,$LName,$mobile,$PaymentMethod,$mail,$RideID,$Date,$Quantity);
+    }
+    function decreaseQuantity()
+    {
+        $RideID = $_GET['id'];
+        $Quantity = $_GET['q'];
+        $Date=$_GET['date'];
+        $arrayName = explode("/",$Date,2);
+        $DateOnly = $arrayName[0];
+        $TimeOnly = $arrayName[1];
+
+        $CDate = date("Y-m-d", strtotime($DateOnly));
+        $CTime = date("H:i:s",strtotime($TimeOnly));
+        $this->model->decrease($RideID,$Quantity,$CDate,$CTime);
 
     }
 }
