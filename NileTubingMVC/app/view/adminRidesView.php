@@ -106,7 +106,7 @@ class rView extends View
               </div>
             <div class="col-sm-3 col-md-8">
             <input id="image"  type="file" name="Cimage" placeholder="" >
-                    <img class="Timg"src="'.__ROOT__.'/view/Images/'.$this->model->get_image().'"><a class="edit" href="adminRides.php?action=edit" ><span  class="glyphicon glyphicon-edit"></span>
+                    <img class="Timg"src="'.__ROOT__.'/view/Images/'.$this->model->get_image().'"><a class="edit" href="#" ><span  class="glyphicon glyphicon-edit"></span>
                     </a>
 
 
@@ -159,7 +159,7 @@ class rView extends View
               </div>
             <div class="col-sm-3 col-md-8">
             <input id="image"  type="file" name="Gimage" placeholder="" >
-                    <img class="Timg"src="'.__ROOT__.'/view/Images/'.$this->model->get_image().'"><a class="edit" href="adminRides.php?action=edit" ><span  class="glyphicon glyphicon-edit"></span>
+                    <img class="Timg"src="'.__ROOT__.'/view/Images/'.$this->model->get_image().'"><a class="edit" href="#" ><span  class="glyphicon glyphicon-edit"></span>
                     </a>
 
                 

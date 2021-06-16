@@ -54,6 +54,13 @@ $Cimg= __ROOT__.'/view/Images/ContactUs.png';
   color: #1F3351;
 }
 
+#newgedan
+{
+   margin-top:-70%;
+   margin-left:18%;
+   
+}
+
 #box{
 
   position: absolute;
@@ -71,33 +78,41 @@ $Cimg= __ROOT__.'/view/Images/ContactUs.png';
      padding-top:-40%;
   }
   .contact-form .input-text
-   {
+   { 
+     
     display: block;
-    width: 50%;
-    height: 50%;
+    width: 80%;
+    height: 80%;
     border-width: 0 0 2px 0;
     border-color: #5543ca;
     font-size: 18px;
-    line-height: 26px;
+    line-height: 28px;
     font-weight: 400;
+    padding-top:15%;
+   
+     
     
   }
+
   .contact-form .input-text:focus
    {
     outline: none;
   }
+
   .contact-form .input-text:focus + .label,
-  .contact-form .input-text.not-empty + .label {
-    -webkit-transform: translateY(-24px);
-            transform: translateY(-24px);
+  .contact-form .input-text.not-empty + .label 
+  {
+    -webkit-transform: translateY(-44px);
+            transform: translateY(-4px);
   }
+
   .contact-form .label 
   {
     position: absolute;
-    left: 20px;
+    left: 8px;
     bottom: 11px;
-    font-size: 18px;
-    line-height: 26px;
+    font-size: 24px;
+    line-height: 30px;
     font-weight: 400;
     color: #5543ca;
     cursor: text;
@@ -106,6 +121,7 @@ $Cimg= __ROOT__.'/view/Images/ContactUs.png';
     transition: transform .2s ease-in-out, 
     -webkit-transform .2s ease-in-out;
   }
+
   .contact-form .submit-btn 
   {
     display: inline-block;
@@ -117,7 +133,7 @@ $Cimg= __ROOT__.'/view/Images/ContactUs.png';
     font-size: 16px;
     padding: 8px 16px;
     border: none;
-    margin-top:10%;
+    margin-top:20%;
     margin-left:25%;
     width:200px;
     cursor: pointer;

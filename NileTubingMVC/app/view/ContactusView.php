@@ -40,23 +40,24 @@ class contactV extends view
     public function form()
     {
         $str="";
-        $str.=' <div class="total"><form method="POST" action="" class="contact-form " style="padding-top:40%; margin-left:10%;" id="box">
- 
-      <div class="form-field col-lg-6">
+        $str.='<div class="total"><form method="POST" action="" class="contact-form row" style="padding-top:40%; margin-left:10%;" id="box">
+        <div id="newgedan">
+
+      <div class="form-field col-lg-12">
          <input id="name" name="name" class="input-text js-input" type="text" required>
          <label class="label" for="name">Name</label>
       </div>
-      <div class="form-field col-lg-6 ">
+      <div class="form-field col-lg-12 ">
          <input id="email" name="email" class="input-text js-input" type="email" required>
          <label class="label" for="email">E-mail</label>
       </div>
 
-       <div class="form-field col-lg-6 ">
+       <div class="form-field col-lg-12 ">
          <input id="phone" name="phone" class="input-text js-input" type="text" required>
          <label class="label" for="phone">Contact Number</label>
       </div>
       
-      <div class="form-field col-lg-6">
+      <div class="form-field col-lg-12">
          <input id="message" name="message" class="input-text js-input" type="text" required>
          <label class="label" for="message">Message</label>
       </div>

@@ -9,6 +9,7 @@ $controller=new adminRidesController($model);
 $view = new rView($controller, $model);
 echo $view->output();
 
+
 $model = new adminRides('Single');
 $controller=new adminRidesController($model);
 $v = new rView($controller, $model);

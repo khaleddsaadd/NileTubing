@@ -85,7 +85,10 @@ class adminRides extends Model
 		$sql = "UPDATE rides set Name= '$name', Price='$price', Description='$description', Image='$image' where id=$this->id;";
 		if($this->db->query($sql) === true){
 			echo' <script> alert("Updated successfully.") </script>';
-            echo'<script> "location.reload" </script>';
+            echo'<script>
+            window.location.href="adminRides.php";
+            </script>';
+          
 			$this->readRide($this->id);
 		} else{
 			echo "ERROR: Could not able to execute $sql. " . $conn->error;
