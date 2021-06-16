@@ -41,19 +41,27 @@ class rView extends View
         <div class="container-fluid">
 
           <div class="row">
+
+                 <form name="single" method="POST" action="">
+
                 <div id="dd">
-                <p id="TripTitle">'.$this->model->get_name().'</p><br><br>
+
+                <p id="TripTitle">
+                <input type=text  id="title" name="Stitle" value="'.$this->model->get_name().'"
+
+                </p><br><br>
               </div>
             <div class="col-sm-3 col-md-8">
-                  <input id="image" type="file" name="image" placeholder="" >
-                    <img class="Timg"src="'.__ROOT__.'/view/Images/'.$this->model->get_image().'"> <a class="remove" href="adminRides.php?action=edit" ><span  class="glyphicon glyphicon-edit"></span>
+            <input id="image"  type="file" name="Simage" placeholder="" >
+                    <img class="Timg"src="'.__ROOT__.'/view/Images/'.$this->model->get_image().'"> <a class="edit" href="#" ><span  class="glyphicon glyphicon-edit"></span>
+                    
                     </a>
                 
 
             </div>
             <div class="col-sm-9 col-md-3">
                 <div class="desc">
-                    <form method="POST" action="">
+                    
 
                     <div class="dtext">
                     <textarea id="description" name="Sdescription" > '.$this->model->get_description().'</textarea>
@@ -70,9 +78,10 @@ class rView extends View
 
                         </div>
                     </div>
+                    </form>
                   </div>
                  
-                  </form>
+                  
                 </div>
             </div>    
         ';
@@ -84,28 +93,46 @@ class rView extends View
         <div class="container-fluid">
 
           <div class="row">
+
+          <form name="couple"  method="POST" action="">
+
                 <div id="dd">
-                <p id="TripTitle">'.$this->model->get_name().'</p><br><br>
+
+                <p id="TripTitle">
+                <input type=text  id="title" name="Ctitle" value="'.$this->model->get_name().'"
+
+                </p><br><br>
+
               </div>
             <div class="col-sm-3 col-md-8">
-                <a href="Ride.php?id='.$this->model->get_id().'">
-                    <img class="Timg"src="'.__ROOT__.'/view/Images/'.$this->model->get_image().'"><a class="remove" href="#"><span class="glyphicon glyphicon-remove-sign"></span>
+            <input id="image"  type="file" name="Cimage" placeholder="" >
+                    <img class="Timg"src="'.__ROOT__.'/view/Images/'.$this->model->get_image().'"><a class="edit" href="adminRides.php?action=edit" ><span  class="glyphicon glyphicon-edit"></span>
                     </a>
-                    <a class="edit" href="#">
-                    <span  class="glyphicon glyphicon-edit"></span>
-                  </a>
-                </a>
+
+
+                
             </div>
             <div class="col-sm-9 col-md-3">
                 <div class="desc">
-                    <label class="dtext">'.$this->model->get_description().'</label><br>
+                
+                <div class="dtext">
+                    <textarea id="description" name="Cdescription" > '.$this->model->get_description().'</textarea>
+                </div>
+
                     <br>
-                    <label class="Price">'.$this->model->get_price().' EGP</label><br>
-                    <a class="BookNow" href="Ride.php?id='.$this->model->get_id().'">
-                    <button type="button" class="btn btn-primary">Book now</button></a>
+                    <br>
+
+                    <input type=text id="price" name="Cprice" value="'.$this->model->get_price().'"  EGP > 
+                    
+                    <br>
+
+                    <input type="submit"  id="submit" name="Csubmit" class="btn btn-primary" value="Save">
+
+                    
 
                         </div>
                     </div>
+                    </form>
                   </div>
                 </div>
             </div>    
@@ -119,28 +146,42 @@ class rView extends View
         <div class="container-fluid">
 
           <div class="row">
+
+          <form method="POST" action="">
+          
                 <div id="dd">
-                <p id="TripTitle">'.$this->model->get_name().'</p><br><br>
+
+                <p id="TripTitle">
+
+                <input type=text  id="title" name="Gtitle" value="'.$this->model->get_name().'"
+
+                </p><br><br>
               </div>
             <div class="col-sm-3 col-md-8">
-                <a href="Ride.php?id='.$this->model->get_id().'">
-                    <img class="Timg"src="'.__ROOT__.'/view/Images/'.$this->model->get_image().'"><a class="remove" href="#"><span class="glyphicon glyphicon-remove-sign"></span>
+            <input id="image"  type="file" name="Gimage" placeholder="" >
+                    <img class="Timg"src="'.__ROOT__.'/view/Images/'.$this->model->get_image().'"><a class="edit" href="adminRides.php?action=edit" ><span  class="glyphicon glyphicon-edit"></span>
                     </a>
-                    <a class="edit" href="#">
-                    <span  class="glyphicon glyphicon-edit"></span>
-                  </a>
-                </a>
+
+                
             </div>
             <div class="col-sm-9 col-md-3">
                 <div class="desc">
-                    <label class="dtext">'.$this->model->get_description().'</label><br>
+
+                <div class="dtext">
+                    <textarea id="description" name="Gdescription" > '.$this->model->get_description().'</textarea>
+                </div>
+                
                     <br>
-                    <label class="Price">'.$this->model->get_price().' EGP</label><br>
-                    <a class="BookNow" href="Ride.php?id='.$this->model->get_id().'">
-                    <button type="button" class="btn btn-primary">Book now</button></a>
+                    <br>
+                    <input type=text id="price" name="Gprice" value="'.$this->model->get_price().'"  EGP > 
+                    
+                    <br>
+
+                    <input type="submit"  id="submit" name="Gsubmit" class="btn btn-primary" value="Save">
 
                         </div>
                     </div>
+                    </form>
                   </div>
                 </div>
             </div>    

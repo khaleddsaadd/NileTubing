@@ -80,11 +80,12 @@ class adminRides extends Model
     }
 
 
-    function edit( $price, $description)
+    function edit( $name, $price, $description,$image)
     {
-		$sql = "UPDATE rides set Price='$price', Description='$description' where id=$this->id;";
+		$sql = "UPDATE rides set Name= '$name', Price='$price', Description='$description', Image='$image' where id=$this->id;";
 		if($this->db->query($sql) === true){
-			echo "updated successfully.";
+			echo' <script> alert("Updated successfully.") </script>';
+            echo'<script> "location.reload" </script>';
 			$this->readRide($this->id);
 		} else{
 			echo "ERROR: Could not able to execute $sql. " . $conn->error;

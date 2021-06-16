@@ -107,10 +107,19 @@ $img = __ROOT__.'/view/Images/tubes.png';
     color: #1F3351;
 
 }
+
+#title
+{   
+    position:absolute;
+    width:20%;
+    left:3%;
+    
+
+}
 #description
 {   
     position:absolute;
-   width:80%;
+    width:80%;
     height:60%;
     left:10%;
 }
@@ -167,16 +176,27 @@ a
      color: #1F3351;
 
 }
-.remove
+.edit
 {
 position: absolute;
-font-size:430%;
-margin-top:-1.4%;
+font-size:300%;
+margin-top:-2.5%;
 right:20%;
 
 }
 
-.edit
+#image
+{
+    position: absolute;
+    width:9%;
+    height:10%;
+    margin-top:-1.4%;
+    left:67.2%;
+    
+
+}
+
+.oldedit
 {
     position: absolute;
     font-size:400%;

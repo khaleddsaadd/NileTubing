@@ -15,10 +15,11 @@ $v = new rView($controller, $model);
 echo $v->single();
 
 
-if ($_POST) 
+if (isset($_POST['Ssubmit'])) 
 {
 	
-	 $controller->edit();
+	 $controller->editS();
+     
 	
 }
 
@@ -27,10 +28,26 @@ $controller=new adminRidesController($model);
 $v = new rView($controller, $model);
 echo $v->couple();
 
+if (isset($_POST['Csubmit'])) 
+{
+	
+	 $controller->editC();
+
+	
+}
+
 $model = new adminRides('Group');
 $controller=new adminRidesController($model);
 $v = new rView($controller, $model);
 echo $v->group();
+
+if (isset($_POST['Gsubmit'])) 
+{
+	
+	 $controller->editG();
+
+	
+}
 
 $model = new adminRides();
 $controller=new adminRidesController($model);
