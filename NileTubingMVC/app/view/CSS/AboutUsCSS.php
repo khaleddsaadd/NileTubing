@@ -2,7 +2,7 @@
 #row1{
  height: 100%;
  width: 100%;
- background-image: url("./Images/AboutUs.png");
+ background-image: url("../app/view/Images/AboutUs.png");
  background-size: 100% 100%;
  background-repeat: no-repeat;
 /* background-color: black;*/

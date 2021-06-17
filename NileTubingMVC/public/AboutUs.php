@@ -2,18 +2,25 @@
 <head>
 	<title>About Us</title>
 
-	<link rel="stylesheet" href="AboutUs.css">
+	
 <meta charset="utf-8">
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<include src="./View/userNavBar.html"></include>
+ 
+
+<?php 
+
+include 'NavBoot/index.html';
+include '../app/view/CSS/AboutUsCSS.php';
+?>
 </head>
 
 
 <body>
-	<?php include 'userNavBar.html';?>
+	
 <div class="container-fluid">
 	<div class="row">
 		<div class="row-md" id="row1">
@@ -32,7 +39,7 @@
 <div class="row">
 
 	<div class="col-md-4">
-		<img  id="L" src="./Images/NTLogo.png">
+		<img  id="L" src="../app/view/Images/NTLogo.png">
 	</div>
 	
 
