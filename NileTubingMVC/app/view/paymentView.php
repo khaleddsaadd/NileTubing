@@ -72,16 +72,13 @@ class payments extends View
                 ';
 
                 $str .='<div class="body">
-                            <div class="container-fluid">
-                                
-                                
+                            <div class="container-fluid">                                
                                 <div class="row">
                                     <div class="column">
                                         <input type="submit" class="rect4" value="Print your ticket">
                                     </div>
                                     </form>
                                     <a href="Rides.php"><button class="cancelBtn">Cancel Payment</button></a>
-
                                 </div>
                             </div>
                     </div>
