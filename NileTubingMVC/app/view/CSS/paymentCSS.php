@@ -343,7 +343,7 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
     {
         padding-left:40%;
     }
-    @media (orientation: portrait), (max-width: 170px)
+    @media (orientation: portrait)
     {
         .body
         {
@@ -563,12 +563,12 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
             align-items: center;
             width: 90%;
             margin: 0 auto;
-            margin-top: 450px;
+            margin-top: 370px;
 
         }
 
         .payment-methods.edited {
-            margin-top: 450px;
+            margin-top: 370px;
             justify-content: center;
         }
 
