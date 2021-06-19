@@ -112,9 +112,10 @@ class payment extends Model
 		if ($result->num_rows == 1)
         {
             $row = $this->db->fetchRow();
-            $TotalCapacity = $row['rideCapacity'];
+            $TotalCapacity = $row['currentCapacity'];
         }
         $Remaining = $TotalCapacity - $Quantity;
+        echo $Remaining;
         $sql = "UPDATE ridesinfo set currentCapacity='$Remaining' where rideDate='$CDate' AND rideTime='$timeT' AND rideID='$RideID'";
 		if($this->db->query($sql) === true){
 		} else{
