@@ -85,9 +85,9 @@ class checkouts extends View
 function myFunction() {
   var txt;
   if (confirm("Are you Sure You Want To Checkout ?")) {
-    window.location = "payment.php?id="+".$date.";
+    window.location = "payment.php?id='.$this->model->get_id().'&date='.$this->model->get_date().'&q='.$this->model->get_quantity().'";
   } else {
-    window.location = "checkout.php?id="+"<?php echo $date; ?>";;
+    window.location = "Rides.php";
   }
   document.getElementById("demo").innerHTML = txt;
 }

@@ -16,8 +16,21 @@ echo $checkouts->output();
 
 if($_POST)
 {
-    $controller->insert();
-    $controller->decreaseQuantity();
+    echo "
+    <p id='demo'></p>
+    <script>
+
+    var txt;
+    var r = confirm('Press a button!');
+    if (r == true) {
+      txt = 'You pressed OK!';
+    } else {
+      txt = 'You pressed Cancel!';
+    }
+    document.getElementById('demo').innerHTML = txt;
+    </script>";
+    //$controller->insert();
+    //$controller->decreaseQuantity();
 }
    
 ?>
