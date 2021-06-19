@@ -115,9 +115,11 @@ $img = __ROOT__.'/view/Images/tubes.png';
 }
 .Price
 {
-    color:red;
+    color:#CCA203;
     font-weight: bolder;
-    padding-left:35%;
+    padding-left:32%;
+    font-size: 20px;
+    font-family:'Hind';
 }
 a
 {

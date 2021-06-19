@@ -116,9 +116,7 @@ class payment extends Model
         }
         $Remaining = $TotalCapacity - $Quantity;
         $sql = "UPDATE ridesinfo set currentCapacity='$Remaining' where rideDate='$CDate' AND rideTime='$timeT' AND rideID='$RideID'";
-        echo $sql;
 		if($this->db->query($sql) === true){
-			echo "updated successfully.";
 		} else{
 		}
     }

@@ -9,7 +9,8 @@
         <link href='https://fonts.googleapis.com/css?family=Bungee Outline' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Hind' rel='stylesheet'>
 
-	
+        <?php include 'AdminNav/index.html';?>
+
 </head>
 
 <?php

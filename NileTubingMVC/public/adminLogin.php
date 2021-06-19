@@ -32,7 +32,7 @@ if(isset($_POST['button']))
         $_SESSION["username"]=$row["username"];
    
         echo'<script>
-        window.location.href="index.php";
+        window.location.href="adminRides.php";
         </script>';
       
         

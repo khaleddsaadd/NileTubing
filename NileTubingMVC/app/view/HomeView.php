@@ -44,8 +44,8 @@ class v extends View
                 <div class="col-sm-3 col-md-7">';
         $str.='<div class="body1Vid">';
         $str.='<video id="vid"width="80%" height="400" controls>';
-        $str.='<source src="'.__ROOT__.'/view/Videos/'.$this->model->get_video().'.mp4" type="video/mp4">';
-        $str.='<source src="'.__ROOT__.'/view/Videos/'.$this->model->get_video().'.ogg" type="video/ogg">';
+        $str.='<source src="'.__ROOT__.'/view/Videos/oo.mp4" type="video/mp4">';
+        $str.='<source src="'.__ROOT__.'/view/Videos/oo.ogg" type="video/ogg">';
         $str.='Your browser does not support the video tag.
                 </video>
             </div>
