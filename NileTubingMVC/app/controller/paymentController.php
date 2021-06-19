@@ -1,4 +1,3 @@
-
 <script>
     function createPDF() {
         var sTable = document.getElementById('prr').innerHTML;

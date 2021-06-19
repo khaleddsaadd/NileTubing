@@ -188,7 +188,7 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
         position: absolute;
         width: 15%;
         height: 12%;
-        left: 64%;
+        left: 64.5%;
         top: 42%;
 
         font-family: 'Hind', sans-serif;
