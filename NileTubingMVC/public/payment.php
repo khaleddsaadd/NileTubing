@@ -17,7 +17,7 @@ echo $checkouts->output();
 if($_POST)
 {
    
-  //  $controller->insert();
+    $controller->insert();
     $controller->decreaseQuantity();
 }
    

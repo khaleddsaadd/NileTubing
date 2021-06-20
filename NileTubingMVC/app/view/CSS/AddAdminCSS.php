@@ -17,6 +17,14 @@ h1{
     padding-left: 5%;
     padding-bottom: 10%;
 }
+#bk 
+{
+    width:39%;
+}
+#bkBTN
+{
+    padding-left:37.7%;
+}
 .user_card {
     height: 500px;
     width: 750px;

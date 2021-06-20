@@ -6,6 +6,7 @@ require_once(__ROOT__ . "view/RideView.php");
 
 ?>
 <style>
+
 .body{
 	background-color: white;
 	font-family: Hind;
@@ -88,6 +89,11 @@ top: 45%;
 background: #EEEFF3;
 border-radius: 30px;}
 
+select 
+{
+	border-radius: 30px;
+
+}
 .form-control {
 	position: absolute;
 	top: 5%;

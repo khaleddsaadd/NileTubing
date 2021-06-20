@@ -41,7 +41,7 @@ class AddAdminView extends View
                 <div class='input-group-append'>  <!-- ba append el icon m3 el text field-->
                     <span class='input-group-text'><i class='fas fa-user'></i></span>
                 </div>
-                <input type='text' name='username' id='username' class='form-control input_user' value='' placeholder='username' required='' >
+                <input type='text' name='username' id='username' class='form-control input_user' value='' placeholder='Username' required='' >
             </div>
 
 
@@ -49,7 +49,7 @@ class AddAdminView extends View
                 <div class='input-group-append'>
                     <span class='input-group-text'><i class='fas fa-key'></i></span>
                 </div>
-                <input type='password' name='password' id='password' class='form-control input_pass' value='' placeholder='password' required=''>
+                <input type='password' name='password' id='password' class='form-control input_pass' value='' placeholder='Password' required=''>
             </div>
              <br>
 
@@ -57,11 +57,16 @@ class AddAdminView extends View
             <div class='d-flex justify-content-center mt-3 login_container'>
            
             <input type='submit' id = 'button' name='button' class='btn login_btn' value='Add Admin'> 
-            
+
             </div>
           </form>
-        </div>
 
+        </div>
+        <div id='bkBTN'>
+        <a href='adminRides.php'>
+        <button type='button' id='bk' class='btn btn-outline-danger'>Back</button>
+        </a>
+        </div>
 
         </div>
         </div>
