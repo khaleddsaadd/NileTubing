@@ -78,7 +78,7 @@ html {
 .msg
 {
 
-margin-top:-14.5%;
+margin-top:-15.2%;
 margin-left:40%;
 width: 20%;
 height:5%;
