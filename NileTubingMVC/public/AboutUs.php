@@ -22,7 +22,7 @@ include '../app/view/CSS/AboutUsCSS.php';
 <body>
 	
 <div class="container-fluid">
-	<div class="row">
+	
 		<div class="row-md" id="row1">
 
 			<h1 id="AU">About Us </h1>
@@ -31,7 +31,7 @@ include '../app/view/CSS/AboutUsCSS.php';
 
     <div class="row-md" id="rec2">
 	
-<div class="row-md"> 
+<div class="row-sm"> 
 <p id="p1"> We are a group of Young Egyptian Doctors who decided to entertain and bring joy and relaxation to the famous Nile river.</p>
 </div> 
 
@@ -57,14 +57,14 @@ include '../app/view/CSS/AboutUsCSS.php';
 
 <div class="row" id="rec3">
 	
-<div class="col-md" id="body1Vid">
+<div class="col-md-4" id="body1Vid">
 	
 
 <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
 
 </div>
 
-<div class="col-md" id="par">
+<div  id="par">
 	
 
 <p>Offers service for all age group over 16. <br> Zero efforts. <br> Cheapest price.</p>
@@ -91,8 +91,6 @@ include '../app/view/CSS/AboutUsCSS.php';
 	</div>
 
 
-
-</div>
 
 
 

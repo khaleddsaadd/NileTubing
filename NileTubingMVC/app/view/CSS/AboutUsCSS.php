@@ -7,9 +7,7 @@
  background-repeat: no-repeat;
 /* background-color: black;*/
 }
-#ro2{
 
-}
 #AU{
 
 position: absolute;
@@ -32,11 +30,11 @@ color: #1F3351;
 
 #rec2
 {
-	position: absolute;
+	position: relative;
 width: 80%;
 height: 80%;
 left: 10%;
-top: 120%;
+margin-top:5%;
 background: #FFFFFF;
 box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.1);
 }
@@ -44,18 +42,13 @@ box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.1);
 #p1{
 
 
-/*position: absolute;
-left: 5%;
-top: 15%;*/
-width: 80%;
-max-width: 80%;
-height: 20%;
-max-height: 20%;
-
+position: relative ;
+padding-left: 5%;
+padding-top: 5%;
 font-family: Hind;
 font-style: normal;
 font-weight: 500;
-font-size: 20px;
+font-size: 23px;
 line-height: 58px;
 display: flex;
 align-items: center;
@@ -66,63 +59,55 @@ color: #F1D158;
 
 #L{
 
-/*position: absolute;
-left: 5%;
-top: 32%;
-width: 30%;
-height: 60%;*/
+position: relative;
+padding-left: 5%;
+width: 100%;
 
 }
 
 #p2{
-	position: absolute;
-width: 60%;
-max-width: 60%;
-height: 70%;
-max-height: 70%;
-left: 35%;
-top: 30%;
 
+	position: relative;
+
+width:80%;
+padding-left:20%;
+padding-top:10%;
 font-family: Hind;
 font-style: normal;
 font-weight: normal;
-font-size: 20px;
+font-size: 24px;
 line-height: 58px;
 display: flex;
 align-items: center;
 letter-spacing: -0.017em;
-
 color: #1F3351;
 }
 
 #rec3{
-	position: absolute;
-	top: 200%;
-	height: 80%;
-	width: 80%;
+	position: relative;
+	margin-top: 5%;
+	height: 100%;
+	
 }
 #body1Vid 
 {
     position: relative;
-width: 808px;
+width: 40%;
 height: 471px;
-left: 15%;
-top: 30%;
+padding-left: 12%;
+padding-top: 5%;
 }
 
 #par{
-	position: absolute;
-/*width: 197px;
-height: 79px;*/
-left: 65%;
-top: 30%;
 
+position: relative;
+padding-left: 55%;	
+padding-top:10%;
 font-family: Hind;
 font-style: normal;
 font-weight: normal;
-font-size: 28px;
+font-size: 35px;
 line-height: 45px;
-display: flex;
 align-items: center;
 letter-spacing: -0.017em;
 
@@ -133,22 +118,19 @@ color: #1F3351;
 #rec4{
 
 
-position: absolute;
+position: relative;
 width: 80%;
 height: 80%;
 left: 10%;
-top: 300%;
 
 background: rgba(241, 209, 88, 0.85);
 box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.1);
 
 }
 #Lear{
-	position: absolute;
-width: 421px;
-height: 94px;
-left: 33%;
-top: 10%;
+	position: relative;
+padding-left: 38%;
+padding-top: 10%;
 
 font-family: IBM Plex Mono;
 font-style: normal;
