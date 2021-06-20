@@ -40,7 +40,7 @@ class payments extends View
                             <div class = "column">    
                                 <input type="text" name="FName" class="input Fnamerect" required="">
                                 <input type="text" name="LName" class="input Lnamerect" required=""> 
-                                <input type="text" name="Mobile" class="input Mobilerect" required="">
+                                <input type="number" name="Mobile" class="input Mobilerect" required="">
                             </div>
                         </div>
                         <div class ="row">
@@ -51,7 +51,7 @@ class payments extends View
                         </div>
                         <div class ="row">
                             <div class = "column">
-                                <input type="text" name="Mail" class="Emailrect" required="">
+                                <input type="email" name="Mail" class="Emailrect" required="">
                                 <select name="Gender" class="input Genderrect">
                                     <option value="">Male</option>
                                     <option value="">Female</option>

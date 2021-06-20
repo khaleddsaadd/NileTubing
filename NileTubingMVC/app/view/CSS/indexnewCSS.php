@@ -3,7 +3,7 @@ require_once(__ROOT__ . "model/HomeModel.php");
 require_once(__ROOT__ . "controller/HomeController.php");
 require_once(__ROOT__ . "view/HomeView.php");
 
-$img = __ROOT__.'/view/Images/H.jpeg';
+$img = __ROOT__.'/view/Images/bbb.jpeg';
 
 
 

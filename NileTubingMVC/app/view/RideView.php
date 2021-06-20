@@ -27,11 +27,11 @@ class rideView
 		$list="";
 		foreach ($rideinfo as $row) {
 			
-			$list.='<option value="'.$row->rideDate.'/'.$row->rideTime.'">'.$row->rideDate.'/'.$row->rideTime.' Capacity '.$row->currentCapacity.'</option>
+			$list.='<option value="'.$row->rideDate.'/'.$row->rideTime.'">'.$row->rideDate.'/'.$row->rideTime.' --- '.$row->currentCapacity.' Tubes Left</option>
 		';}
 		$review="<ul>";
 		foreach ($reviews as $rev) {
-			$review.='<li>'.$rev->Name.': '.$rev->Review.'</li>';
+			$review.='<li><label style="color:#1F3351;">'.$rev->Name.'</label>: <label style="font-weight:bolder;">'.$rev->Review.'</label></li>';
 		}
 		$review.='</ul>';
 
@@ -40,7 +40,7 @@ class rideView
 		  <div class="col-md" id="rec1">
 	
 		  
-		<p id="price">'.$model->Price.'</p>
+		<p id="price">'.$model->Price.' EGP</p>
 		<p id="per">per person</p>
 	
 		<p id="date"> Ride Date/Time - Remaining capacity</p>
@@ -54,7 +54,7 @@ class rideView
 	
 		<div class="quantity">
 	
-			<input type="number"  class="form-control" id="quantity" value="1" name="quantity" min="1"  required>
+			<input type="number"  class="form-control" id="quantity" value="1" name="quantity" min="1" max="'.$row->currentCapacity.'" required>
 	
 	
 		</div>
@@ -84,8 +84,8 @@ class rideView
 		<h1 id="rev">Reviews</h1>
 		<form action="Ride.php?id='.$model->rideID.'" method="POST">
 		<div class="wrev">
-			<input type="text" id="name" name="name" placeholder="Write your name"><br>
-			<input type="text" id="rev-box" name="rev-box" placeholder="Write your review"><br>
+			<input type="text" id="name" name="name" placeholder="Write your name" required=""><br>
+			<input type="text" id="rev-box" name="rev-box" placeholder="Write your review"required=""><br>
 		</div>
 	
 		<div>
