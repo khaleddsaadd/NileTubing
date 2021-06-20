@@ -27,7 +27,7 @@ class rideView
 		$list="";
 		foreach ($rideinfo as $row) {
 			
-			$list.='<option value="'.$row->rideDate.'/'.$row->rideTime.'">'.$row->rideDate.'/'.$row->rideTime.' --- '.$row->currentCapacity.' Tubes Left</option>
+			$list.='<option value="'.$row->rideDate.'/'.$row->rideTime.'">'.$row->rideDate.' / '.$row->rideTime.' --- '.$row->currentCapacity.' Tubes Left</option>
 		';}
 		$review="<ul>";
 		foreach ($reviews as $rev) {
