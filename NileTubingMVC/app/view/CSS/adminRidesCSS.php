@@ -37,13 +37,17 @@ $img = __ROOT__.'/view/Images/tubes.png';
 }
 #TripTitle
 {
-    width: 20%;
+    width: 22%;
+    height:10%;
     padding-top: 0.5%;
     text-align: center;
     font-family: 'Hind';font-size: 32px;
     background-color: #EEEFF3;
     border-radius: 80px;
     color: #1F3351;
+    padding-top:0.5%;
+    
+   
 
 }
 #indexBG 
@@ -112,7 +116,11 @@ $img = __ROOT__.'/view/Images/tubes.png';
 {   
     position:absolute;
     width:20%;
-    left:3%;
+    padding-top:0.2%;
+    left:3.6%;
+    margin-top:0.2%;
+    border-radius: 20px;
+    
     
 
 }
@@ -133,11 +141,13 @@ $img = __ROOT__.'/view/Images/tubes.png';
 #Price
 { 
     position:absolute;
-    color:red;
+    color:#CCA203;
     font-weight: bolder;
+    font-size: 20px;
     top:75%;
     left: 40%;
-    width:15%; 
+    width:22%; 
+    font-family:'Hind';
     text-align:center;   
 
 }
