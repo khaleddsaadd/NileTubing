@@ -51,7 +51,7 @@ class payments extends View
                         </div>
                         <div class ="row">
                             <div class = "column">
-                                <input type="email" name="Mail" class="Emailrect" required="">
+                                <input type="text" name="Mail" class="Emailrect" required="">
                                 <select name="Gender" class="input Genderrect">
                                     <option value="">Male</option>
                                     <option value="">Female</option>

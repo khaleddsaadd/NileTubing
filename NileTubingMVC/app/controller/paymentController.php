@@ -41,11 +41,18 @@ class paymentController extends Controller
         $LName = $_REQUEST["LName"];
         $mobile = $_REQUEST["Mobile"];
         $PaymentMethod = $_REQUEST["payment"];
-        $mail = $_REQUEST["Mail"];
         $RideID = $_GET['id'];
         $Date=$_GET['date'];
         $Quantity = $_GET['q'];
-        $this->model->SaveReservation($FName,$LName,$mobile,$PaymentMethod,$mail,$RideID,$Date,$Quantity);
+        $mail =$_REQUEST["Mail"];
+        if (!filter_var($mail, FILTER_VALIDATE_EMAIL)) {
+        echo' <div class="alert alert-warning" role="alert" style="";>
+            Invalid Email format !
+            </div>';
+          }
+          else{
+       
+        $this->model->SaveReservation($FName,$LName,$mobile,$PaymentMethod,$mail,$RideID,$Date,$Quantity);}
     }
     function decreaseQuantity()
     {
