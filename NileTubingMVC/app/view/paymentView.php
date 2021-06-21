@@ -38,9 +38,9 @@ class payments extends View
                         </div>
                         <div class ="row">
                             <div class = "column">    
-                                <input type="text" name="FName" class="input Fnamerect" required="">
-                                <input type="text" name="LName" class="input Lnamerect" required=""> 
-                                <input type="number" name="Mobile" class="input Mobilerect" required="">
+                                <input type="text" name="FName" class="input Fnamerect" placeholder="First Name" required="">
+                                <input type="text" name="LName" class="input Lnamerect" placeholder="Last Name"required=""> 
+                                <input type="number" name="Mobile" class="input Mobilerect" placeholder="Mobile Number" required="">
                             </div>
                         </div>
                         <div class ="row">
@@ -51,7 +51,7 @@ class payments extends View
                         </div>
                         <div class ="row">
                             <div class = "column">
-                                <input type="text" name="Mail" class="Emailrect" required="">
+                                <input type="text" name="Mail" class="Emailrect" placeholder="Email Address"required="">
                                 <select name="Gender" class="input Genderrect">
                                     <option value="">Male</option>
                                     <option value="">Female</option>
