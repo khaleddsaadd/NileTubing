@@ -8,7 +8,7 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
 ?>
 <style>
     .body{
-        background: #e5e5e5;
+        background: white;
         font-family: 'IBM Plex Mono', monospace;
         margin: 0;
         padding: 0;
