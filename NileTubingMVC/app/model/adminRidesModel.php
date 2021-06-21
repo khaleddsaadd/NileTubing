@@ -6,8 +6,14 @@ class adminRides extends Model
     public $image; 
     public $name;
     public $price;
-    public $discription; 
-    public $capacity; 
+    public $discription;
+    public $rideID; 
+    public $rideTime;
+    public $rideDate;
+    public $rideCapacity; 
+    public $currentCapacity;  
+    
+
     function __construct($R_Type="")
     {
 		$this->db = $this->connect();
@@ -91,6 +97,21 @@ class adminRides extends Model
           
 			$this->readRide($this->id);
 		} else{
+			echo "ERROR: Could not able to execute $sql. " . $conn->error;
+		}
+	}
+
+    function schdule( $rideTime,$rideDate, $rideCapacity, $currentCapacity)
+    {   
+        $Rid = $this->id;
+
+		$sql = "INSERT INTO ridesinfo (rideID, rideTime, rideDate, rideCapacity, currentCapacity) VALUES ( '$Rid', '$rideTime', '$rideDate', '$rideCapacity', '$currentCapacity')";
+		if($this->db->query($sql) === true)
+        {
+			echo '<script> alert("Records inserted successfully.") </script>';
+		} 
+		else
+        {
 			echo "ERROR: Could not able to execute $sql. " . $conn->error;
 		}
 	}

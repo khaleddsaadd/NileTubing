@@ -86,7 +86,7 @@ $img = __ROOT__.'/view/Images/tubes.png';
 .desc
 {
     padding-left:10%;
-    width:100%;
+    width:120%;
     height: 400px;
     font-family: 'Hind';
     padding-top: 10%;
@@ -119,46 +119,99 @@ $img = __ROOT__.'/view/Images/tubes.png';
     padding-top:0.2%;
     left:3.6%;
     margin-top:0.2%;
-    border-radius: 20px;
-    
-    
+    border-radius: 20px;   
 
 }
 #description
 {   
     position:absolute;
-    width:80%;
+    width:100%;
     height:60%;
-    left:10%;
+    left:9%;
+    Top:4%;    
 }
+
 .dtext
 {
     font-family: 'Hind';
     font-size: 20px;
 
-
 }
+
 #Price
 { 
     position:absolute;
     color:#CCA203;
     font-weight: bolder;
     font-size: 20px;
-    top:75%;
-    left: 40%;
+    top:77%;
+    left: 87%;
     width:22%; 
     font-family:'Hind';
     text-align:center;   
 
 }
+
+#time
+{
+    position:absolute;
+    color:black;
+    font-weight: bolder;
+    font-size: 15px;
+    top: 68%;
+    left: 9%;
+    width:22%; 
+    height: 7%; 
+    font-family:'Hind';
+    text-align:center; 
+}
+
+#date
+{
+    position:absolute;
+    color:black;
+    font-weight: bolder;
+    font-size: 15px;
+    top: 68%;
+    left: 33%;
+    width:22%; 
+    height: 7%; 
+    font-family:'Hind';
+    text-align:center; 
+}
+
+#capacity{
+    position:absolute;
+    color:black;
+    font-weight: bolder;
+    font-size: 15px;
+    top: 68%;
+    left: 57%;
+    width:22%;
+    height: 7%; 
+    font-family:'Hind';
+    text-align:center; 
+    
+}
 #submit
 {
     position:absolute;
-    top:85%;
-    right: 10%;
-    width:25%;
-    font-size:20px;
+    top:77%;
+    left: 89%;
+    width:20%;
+    font-size:17px;
 }
+
+#add
+{
+
+    position:absolute;
+    top:77%;
+    left:35%;
+    width:20%;
+    font-size:17px;
+}
+
 a
 {
     text-decoration: none;

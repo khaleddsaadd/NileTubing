@@ -8,12 +8,25 @@ class adminRidesController extends Controller
         $price = $_REQUEST['Sprice'];
         $description=$_REQUEST['Sdescription'];
         $image = $_REQUEST['Simage'];
+        $rideTime = $_REQUEST['Stime'];
+        $rideDate = $_REQUEST['Sdate'];
+        $rideCapacity = $_REQUEST['Scapacity'];
+        $currentCapacity = $_REQUEST['Scapacity'];
 
 
 		$this->model->edit($name,$price,$description, $image);
-
-    
+ 
 	}
+
+    public function addS()
+    {
+       $rideTime = $_REQUEST['Stime'];
+       $rideDate = $_REQUEST['Sdate'];
+       $rideCapacity = $_REQUEST['Scapacity'];
+       $currentCapacity = $_REQUEST['Scapacity'];
+
+       $this->model->schdule($rideTime,$rideDate,$rideCapacity, $currentCapacity);
+   }
 
     public function editC()
     {

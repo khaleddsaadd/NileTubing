@@ -24,6 +24,14 @@ if (isset($_POST['Ssubmit']))
 	
 }
 
+if (isset($_POST['Sadd'])) 
+{
+	
+	 $controller->addS();
+     
+	
+}
+
 $model = new adminRides('Couple');
 $controller=new adminRidesController($model);
 $v = new rView($controller, $model);

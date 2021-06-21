@@ -70,18 +70,38 @@ class rView extends View
                     <br>
                     <br>
 
-                    <input type=text id="price" name="Sprice" value="'.$this->model->get_price().'"  EGP > 
+                    <input type=text id="price" name="Sprice" value="'.$this->model->get_price().' EGP"   > 
                     
                     <br>
 
                     <input type="submit"  id="submit" name="Ssubmit" class="btn btn-primary" value="Save">
 
-                        </div>
+                    </div>
+
+                        <form name="single" method="POST" action="">
+
+                        <div id="dd">
+    
+                        <input type=time  id="time"  name="Stime"  value="" > 
+
+                        <br>
+
+                        <input type=date id="date" name="Sdate" value="" > 
+                        <br>
+    
+                        <input type=text id="capacity" name="Scapacity" value="" placeholder="Capacity" > 
+                        <br>
+    
+                        <input type="submit"  id="add" name="Sadd" class="btn btn-primary" value="Add">
+                        </form>
+
                     </div>
                     </form>
+
+
+
+
                   </div>
-                 
-                  
                 </div>
             </div>    
         ';
