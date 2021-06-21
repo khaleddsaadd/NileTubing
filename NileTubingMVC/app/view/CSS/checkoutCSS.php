@@ -18,14 +18,28 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
     .column 
     {
         float: left;
+        display: flexbox;
         width: 50%;
         padding: 10px;
     }
     .row:after 
+    
     {
         content: "";
         display: table;
         clear: both;
+    }
+    .desc
+    {
+        width:100%;
+        height: 400px;
+        font-family: 'Hind';
+        color: #1F3351;
+        padding-top:0;
+        background: #FFFFFF;
+        box-sizing: border-box;
+        box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2);
+        
     }
     .logo
     {
@@ -62,6 +76,7 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
         position: absolute;
         width: 150px;
         height: 50px;
+        padding-top:1%;
         padding-left: 1%;
         background: #FFFFFF;
         border: 1px solid #1A3E92;
@@ -112,7 +127,7 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
     {
         width:250px;
         height:500%;
-        padding-top:7%;
+        padding-top:1%;
         padding-left:5%;
         border-radius:50%;
     }
@@ -121,7 +136,7 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
         width: 15%;
         height: 12%;
         left: 31.5%;
-        top: 42%;
+        top: 30%;
 
         font-family:'Hind', sans-serif;
         font-style: normal;
@@ -137,7 +152,7 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
     }
     .Triprect{
         left: 28%;
-        top: 50%;
+        top: 40%;
         
     }
     .date{
@@ -145,7 +160,7 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
         width: 15%;
         height: 12%;
         left: 44.5%;
-        top: 42%;
+        top: 30%;
         font-family: 'Hind', sans-serif;
         font-style: normal;
         font-weight: normal;
@@ -160,14 +175,14 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
     .daterect
     {   
         left: 41%;
-        top: 50%;
+        top: 40%;
     }
     .price{
         position: absolute;
         width: 15%;
         height: 12%;
         left: 56.5%;
-        top: 42%;
+        top: 30%;
 
         font-family: 'Hind', sans-serif;
         font-style: normal;
@@ -182,14 +197,14 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
     }
     .pricerect{
         left: 55%;
-        top: 50%;    
+        top: 40%;    
     }
     .quantity{
         position: absolute;
         width: 15%;
         height: 12%;
         left: 64.5%;
-        top: 42%;
+        top: 30%;
 
         font-family: 'Hind', sans-serif;
         font-style: normal;
@@ -205,14 +220,14 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
     }
     .quantityrect{
         left: 64%;
-        top:  50%;
+        top:  40%;
     }
     .total{
         position: absolute;
         width: 15%;
         height: 12%;
         left: 76%;
-        top: 42%;
+        top: 30%;
 
         font-family:'Hind', sans-serif;
         font-style: normal;
@@ -228,14 +243,14 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
     }
     .totalrect{
         left: 73%;
-        top: 50%;
+        top: 40%;
     }
     .rect{
         position: absolute;
         width: 120px;
         height: 40px;
         left: 76%;
-        top: 70%;
+        top: 55%;
         background: #1A3E92;
         border-radius: 20px;
         border: none;
@@ -329,7 +344,7 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
         {
             width:250px;
             height:500%;
-            padding-top:5%;
+            padding-top:4%;
             padding-left:5%
         }
         .Trip{
@@ -511,6 +526,18 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
             letter-spacing: -0.017em;
             color: #000000;
         }
+        .desc
+    {
+        width:100%;
+        height: 120%;
+        font-family: 'Hind';
+        color: #1F3351;
+        padding-top:0;
+        background: #FFFFFF;
+        box-sizing: border-box;
+        box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2);
+        
+    }
         .body2{
             position: absolute;
             width: 50px;
@@ -547,7 +574,7 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
         {
             width:250px;
             height:500%;
-            padding-top:2%;
+            padding-top:5%;
             padding-left:18%
         }
         .Trip{

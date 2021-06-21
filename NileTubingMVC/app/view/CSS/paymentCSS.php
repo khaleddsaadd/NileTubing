@@ -32,6 +32,18 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
         display: table;
         clear: both;
     }
+    .desc
+    {
+        width:100%;
+        height: 65%;
+        font-family: 'Hind';
+        color: #1F3351;
+        padding-top:0;
+        background: #FFFFFF;
+        box-sizing: border-box;
+        box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2);
+        
+    }
     .logo{
         position: absolute;
         width: 70px;
@@ -289,6 +301,8 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
         width: 90%;
         margin: 0 auto;
         margin-top: 250px;
+        padding-left:55%;
+        padding-top:7%;
 
     }
 
@@ -309,7 +323,7 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
         width: 170px;
         height: 40px;
         left: 75%;
-        top: 68%;
+        top: 75%;
         background: #1A3E92;
         border-radius: 20px;
         border: none;
@@ -325,11 +339,11 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
         width: 170px;
         height: 40px;
         left: 63%;
-        top: 68%;
-        background: white;
+        top: 75%;
+        background:#1A3E92;
         border-radius: 20px;
         border: none;
-        color: black;
+        color: white;
         cursor: pointer;
         transition: .1s all;
         font-weight:bolder;
@@ -370,6 +384,18 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
             content: "";
             display: table;
             clear: both;
+        } 
+        .desc
+        {
+            width:105%;
+            height: 95%;
+            font-family: 'Hind';
+            color: #1F3351;
+            padding-top:0;
+            background: #FFFFFF;
+            box-sizing: border-box;
+            box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2);
+            
         }
         .logo{
             position: absolute;
@@ -564,6 +590,8 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
             width: 90%;
             margin: 0 auto;
             margin-top: 370px;
+            padding-left:15%;
+            padding-top:47%;
 
         }
 
