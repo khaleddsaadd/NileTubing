@@ -129,15 +129,7 @@ class rView extends View
     }
     public function offers()
     {
-        $str='<br><br><br><br><br><br>
-            <div id="body5">
-                <div class="container-fluid">
-                    <div class="row">
-                        <label id="o" class="OfferEventText">Special Offers </label>
-                    </div>
-                </div>
-            </div>';
-        return $str;
+      
     }
 }
 ?>

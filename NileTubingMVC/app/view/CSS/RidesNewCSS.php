@@ -128,7 +128,6 @@ a
 #body5
 {
     width: 70%;
-    height: 100%;
     background-color: red;
     left: 15%;
     right: 20%;
@@ -148,4 +147,63 @@ a
      color: #1F3351;
 
 }
+
+
+
+#body5
+    {
+        position:absolute;
+        top:380%;
+    }
+    .all
+    {
+        padding-left:22%;
+        padding-top:8%;
+    }
+    .Name
+    {
+        color:#1F3351;
+        font-size:20px;
+        font-weight:bolder;
+        font-family='Hind';
+
+
+    }
+    .p 
+    {
+        color:#1F3351;
+        font-size:17px;
+        font-weight:bolder;
+        font-family='Hind';
+    }
+    .sd
+    {
+        color:#1F3351;
+        font-size:17px;
+        font-weight:bolder;
+        font-family='Hind';
+    }
+    .t 
+    {
+        color:#1F3351;
+        font-size:17px;
+        font-weight:bolder;
+        font-family='Hind';
+    }
+    .imgdiv
+    {
+    }
+    .oneOffer 
+    {
+        background-color:blue;
+        width:70%;
+        background: #FFFFFF;
+    box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2)
+        
+    }
+    .oimg
+    {
+        width:100%;
+        height:300px;
+    }
 </style>
