@@ -62,6 +62,7 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
         font-weight: bold;
         font-size: 22px;
         text-align: center;
+        padding-top:4%;
         letter-spacing: -0.017em;
         color: #000000;
     }
@@ -110,7 +111,7 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
         width: 100px;
         height: 50px;
         padding-top:1%;
-        padding-left: 2%;
+        padding-left: 2.5%;
         background: #FFFFFF;
         border: 1px solid #1A3E92;
         box-sizing: border-box;
@@ -181,7 +182,7 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
         position: absolute;
         width: 15%;
         height: 12%;
-        left: 56.5%;
+        left: 55.5%;
         top: 30%;
 
         font-family: 'Hind', sans-serif;
@@ -196,7 +197,7 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
         color: #1F3351;
     }
     .pricerect{
-        left: 55%;
+        left: 54%;
         top: 40%;    
     }
     .quantity{
@@ -532,7 +533,7 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
         height: 120%;
         font-family: 'Hind';
         color: #1F3351;
-        padding-top:0;
+        padding-top:15%;
         background: #FFFFFF;
         box-sizing: border-box;
         box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2);
