@@ -12,8 +12,10 @@ echo $view->output();
 
 
 if(isset($_POST['button']))
-{
-   $controller->insert();
+{      
+
+$controller->insert();
+   
 }
 ?>
 
