@@ -144,8 +144,8 @@ $img = __ROOT__.'/view/Images/tubes.png';
     color:#CCA203;
     font-weight: bolder;
     font-size: 20px;
-    top:77%;
-    left: 87%;
+    top:77.5%;
+    left: 40%;
     width:22%; 
     font-family:'Hind';
     text-align:center;   
@@ -157,10 +157,10 @@ $img = __ROOT__.'/view/Images/tubes.png';
     position:absolute;
     color:black;
     font-weight: bolder;
-    font-size: 15px;
+    font-size: 13px;
     top: 68%;
     left: 9%;
-    width:22%; 
+    width:25%; 
     height: 7%; 
     font-family:'Hind';
     text-align:center; 
@@ -171,10 +171,10 @@ $img = __ROOT__.'/view/Images/tubes.png';
     position:absolute;
     color:black;
     font-weight: bolder;
-    font-size: 15px;
+    font-size: 11px;
     top: 68%;
-    left: 33%;
-    width:22%; 
+    left: 35%;
+    width:30%; 
     height: 7%; 
     font-family:'Hind';
     text-align:center; 
@@ -184,9 +184,9 @@ $img = __ROOT__.'/view/Images/tubes.png';
     position:absolute;
     color:black;
     font-weight: bolder;
-    font-size: 15px;
+    font-size: 13px;
     top: 68%;
-    left: 57%;
+    left: 66%;
     width:22%;
     height: 7%; 
     font-family:'Hind';
@@ -197,19 +197,19 @@ $img = __ROOT__.'/view/Images/tubes.png';
 {
     position:absolute;
     top:77%;
-    left: 89%;
-    width:20%;
-    font-size:17px;
+    left: 90%;
+    width:19%;
+    font-size:16px;
 }
 
 #add
 {
 
     position:absolute;
-    top:77%;
-    left:35%;
-    width:20%;
-    font-size:17px;
+    top:67.5%;
+    left:90%;
+    width:19%;
+    font-size:16px;
 }
 
 a

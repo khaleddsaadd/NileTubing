@@ -1,5 +1,6 @@
 <head>
     <meta charset="utf-8">
+    <title> Admin Rides </title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -98,15 +99,15 @@ class rView extends View
                     </div>
                     </form>
 
-
-
-
-                  </div>
-                </div>
+            </div>
+            </div>
             </div>    
+
         ';
+
         return $str;
     }
+
     public function couple()
     {
         $str='<div id="body3">    
@@ -148,17 +149,36 @@ class rView extends View
 
                     <input type="submit"  id="submit" name="Csubmit" class="btn btn-primary" value="Save">
 
-                    
+                    </div>
 
-                        </div>
+                    <form name="couple" method="POST" action="">
+
+                    <div id="dd">
+
+                    <input type=time  id="time"  name="Ctime"  value="" > 
+
+                    <br>
+
+                    <input type=date id="date" name="Cdate" value="" > 
+                    <br>
+
+                    <input type=text id="capacity" name="Ccapacity" value="" placeholder="Capacity" > 
+                    <br>
+
+                    <input type="submit"  id="add" name="Cadd" class="btn btn-primary" value="Add">
+                    </form>
+
                     </div>
                     </form>
-                  </div>
-                </div>
+
+            </div>
+            </div>
             </div>    
         ';
+
         return $str;
     }
+
     
     public function group()
     {
@@ -199,7 +219,26 @@ class rView extends View
 
                     <input type="submit"  id="submit" name="Gsubmit" class="btn btn-primary" value="Save">
 
-                        </div>
+                    </div>
+
+                    <form name="group" method="POST" action="">
+
+                    <div id="dd">
+
+                    <input type=time  id="time"  name="Gtime"  value="" > 
+
+                    <br>
+
+                    <input type=date id="date" name="Gdate" value="" > 
+                    <br>
+
+                    <input type=text id="capacity" name="Gcapacity" value="" placeholder="Capacity" > 
+                    <br>
+
+                    <input type="submit"  id="add" name="Gadd" class="btn btn-primary" value="Add">
+                    </form>
+
+
                     </div>
                     </form>
                   </div>

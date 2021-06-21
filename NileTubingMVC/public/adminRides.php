@@ -45,6 +45,14 @@ if (isset($_POST['Csubmit']))
 	
 }
 
+if (isset($_POST['Cadd'])) 
+{
+	
+	 $controller->addC();
+     
+	
+}
+
 $model = new adminRides('Group');
 $controller=new adminRidesController($model);
 $v = new rView($controller, $model);
@@ -55,6 +63,14 @@ if (isset($_POST['Gsubmit']))
 	
 	 $controller->editG();
 
+	
+}
+
+if (isset($_POST['Gadd'])) 
+{
+	
+	 $controller->addG();
+     
 	
 }
 
