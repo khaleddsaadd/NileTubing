@@ -25,10 +25,10 @@ class payments extends View
     public function output()
     {
         $str = "";
-        $str .= '<div class="body">
-                    <div class="container-fluid">
+        $str .= '<div class="container-fluid">
+                    <h1 class="info">Fill Your Info To Checkout</h1>
+                    <div class="desc">
                         <div class="row"> 
-                            <h1 class="info">Fill Your Info To Checkout</h1>
                             <form method="POST">
                                 <div class= "column">
                                     <p class="Fname">First Name</p>
@@ -56,10 +56,6 @@ class payments extends View
                                     <option value="">Male</option>
                                     <option value="">Female</option>
                                 </select>
-                            </div>
-                        </div>
-                        <div class ="row">
-                            <div class = "column">
                                 <div class="payment-methods flex">
                                     <p>Payment Methods:</p>
                                     <input type="radio" name="payment" value="Cash"  checked="checked"> <img src="'.__ROOT__.'/view/Images/cash.jpg" alt=""> Cash Payment
@@ -67,22 +63,15 @@ class payments extends View
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                ';
-
-                $str .='<div class="body">
-                            <div class="container-fluid">                                
-                                <div class="row">
-                                    <div class="column">
-                                        <input type="submit" class="rect4" value="Print your ticket">
-                                    </div>
-                                    </form>
-                                    <a href="Rides.php"><button class="cancelBtn">Cancel Payment</button></a>
-                                </div>
+                        <div class="row">
+                            <div class="column">
+                                <input type="submit" class="rect4" value="Print your ticket">
                             </div>
+                            </form>
+                            <a href="Rides.php"><button class="cancelBtn">Cancel Payment</button></a>
+                        </div>
                     </div>
-                    ';
+                </div>';
         $str.='';
         $str .='';
         return $str;

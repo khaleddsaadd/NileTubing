@@ -54,7 +54,7 @@ class rideView
 	
 		<div class="quantity">
 	
-			<input type="number"  class="form-control" id="quantity" value="1" name="quantity" min="1" max="'.$row->currentCapacity.'" required>
+			<input type="number"  class="form-control" id="quantity" value="1" name="quantity" min="1"  required>
 	
 	
 		</div>
