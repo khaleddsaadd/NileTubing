@@ -158,7 +158,7 @@ a
     .all
     {
         padding-left:22%;
-        padding-top:8%;
+        padding-top:12%;
     }
     .Name
     {
@@ -205,5 +205,9 @@ a
     {
         width:100%;
         height:300px;
+    }
+    .bookoffer
+    {
+        
     }
 </style>
