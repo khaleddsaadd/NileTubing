@@ -8,7 +8,7 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
 ?>
 <style>
     .body{
-        background: #e5e5e5;
+        background: white;
         font-family: 'IBM Plex Mono', monospace;
         margin: 0;
         padding: 0;
@@ -31,6 +31,18 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
         content: "";
         display: table;
         clear: both;
+    }
+    .desc
+    {
+        width:100%;
+        height: 65%;
+        font-family: 'Hind';
+        color: #1F3351;
+        padding-top:0;
+        background: #FFFFFF;
+        box-sizing: border-box;
+        box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2);
+        
     }
     .logo{
         position: absolute;
@@ -60,7 +72,7 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
         width: 250px;
         height: 45px;
         left: 23%;
-        top: 20%;
+        top: 24%;
 
         font-family:'Hind', sans-serif;
         font-style: normal;
@@ -83,7 +95,7 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
         width: 250px;
         height: 45px;
         left: 43%;
-        top: 20%;
+        top: 25%;
 
         font-family: 'Hind', sans-serif;
         font-style: normal;
@@ -116,7 +128,7 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
         width: 250px;
         height: 45px;
         left: 62%;
-        top: 20%;
+        top: 25%;
 
         font-family: 'Hind', sans-serif;
         font-style: normal;
@@ -130,37 +142,7 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
 
         color: #1F3351;
     }
-    .Mobileno-edited{
-        position: absolute;
-        width: 250px;
-        height: 45px;
-        left: 21.5%;
-        top: 105%;
-        
-        font-family: 'Hind', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 24px;
-        line-height: 38px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: -0.017em;
-        
-        color: #1F3351;
-    }
-    .Mobilerect-edited{
-        position: absolute;
-        width: 200px;
-        height: 50px;
-        left: 20%;
-        top: 110%;
-
-        background: #FFFFFF;
-        border: 1px solid #1A3E92;
-        box-sizing: border-box;
-        border-radius: 20px;
-    }
+    
     .Mobilerect
     {   
         left: 60%;
@@ -171,7 +153,7 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
         width: 229px;
         height: 45px;
         left: 22%;
-        top: 40%;
+        top: 45%;
 
         font-family: 'Hind', sans-serif;
         font-style: normal;
@@ -184,37 +166,6 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
         letter-spacing: -0.017em;
 
         color: #1F3351;
-    }
-    .Email-edited{
-        position: absolute;
-        width: 229px;
-        height: 45px;
-        left: 42%;
-        top: 105%;
-
-        font-family: 'Hind', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 24px;
-        line-height: 38px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: -0.017em;
-
-        color: #1F3351;
-    }
-    .Emailrect-edited{
-        position: absolute;
-        width: 500px;
-        height: 50px;
-        left: 40%;
-        top: 110%;
-
-        background: #FFFFFF;
-        border: 1px solid #1A3E92;
-        box-sizing: border-box;
-        border-radius: 20px;
     }
     .Emailrect{
         position: absolute;
@@ -234,7 +185,7 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
         width: 250px;
         height: 45px;
         left: 64%;
-        top: 40%;
+        top: 45%;
 
         font-family: 'Hind', sans-serif;
         font-style: normal;
@@ -289,6 +240,8 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
         width: 90%;
         margin: 0 auto;
         margin-top: 250px;
+        padding-left:55%;
+        padding-top:7%;
 
     }
 
@@ -308,8 +261,8 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
         position: absolute;
         width: 170px;
         height: 40px;
-        left: 75%;
-        top: 68%;
+        left: 85%;
+        top: 75%;
         background: #1A3E92;
         border-radius: 20px;
         border: none;
@@ -324,8 +277,8 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
         position: absolute;
         width: 170px;
         height: 40px;
-        left: 63%;
-        top: 68%;
+        left: 74%;
+        top: 75%;
         background: white;
         border-radius: 20px;
         border: none;
@@ -370,6 +323,18 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
             content: "";
             display: table;
             clear: both;
+        } 
+        .desc
+        {
+            width:105%;
+            height: 95%;
+            font-family: 'Hind';
+            color: #1F3351;
+            padding-top:0;
+            background: #FFFFFF;
+            box-sizing: border-box;
+            box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2);
+            
         }
         .logo{
             position: absolute;
@@ -564,6 +529,8 @@ $img = __ROOT__.'/view/Images/NTLogo.png';
             width: 90%;
             margin: 0 auto;
             margin-top: 370px;
+            padding-left:15%;
+            padding-top:47%;
 
         }
 

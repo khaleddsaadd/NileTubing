@@ -24,7 +24,6 @@ class adminRidesController extends Controller
        $rideDate = $_REQUEST['Sdate'];
        $rideCapacity = $_REQUEST['Scapacity'];
        $currentCapacity = $_REQUEST['Scapacity'];
-
        $this->model->schdule($rideTime,$rideDate,$rideCapacity, $currentCapacity);
     }
 

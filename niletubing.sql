@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 19, 2021 at 11:19 PM
+-- Generation Time: Jun 21, 2021 at 07:48 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.3
 
@@ -31,7 +31,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `adminaccounts` (
   `id` int(11) NOT NULL,
   `username` varchar(10) NOT NULL,
-  `password` varchar(10) NOT NULL
+  `password` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
@@ -39,15 +39,8 @@ CREATE TABLE `adminaccounts` (
 --
 
 INSERT INTO `adminaccounts` (`id`, `username`, `password`) VALUES
-(1, 'Admin1', '123'),
-(2, 'Admin2', '111'),
-(11, '', ''),
-(12, '', ''),
-(13, 'Eh', '123'),
-(14, '', ''),
-(15, '', ''),
-(16, '', ''),
-(17, '', '');
+(110, 'Khaled', '084f3285286ca784bbffd823de7362760364c9a8'),
+(111, 'Sayed', '838ce79d8de3640040bcf108c22bf4d1601dd65f');
 
 -- --------------------------------------------------------
 
@@ -118,12 +111,20 @@ CREATE TABLE `offers` (
   `Name` varchar(10) NOT NULL,
   `Price` int(10) NOT NULL,
   `Description` text NOT NULL,
-  `Image` blob NOT NULL,
+  `Image` text NOT NULL,
   `Type` varchar(15) NOT NULL,
   `Capacity` int(10) NOT NULL,
   `Start_Date` datetime NOT NULL,
   `End_Dare` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `offers`
+--
+
+INSERT INTO `offers` (`id`, `Name`, `Price`, `Description`, `Image`, `Type`, `Capacity`, `Start_Date`, `End_Dare`) VALUES
+(1, 'Bird Watch', 3000, '', 'bird.png', 'Couple', 10, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(2, 'Test Offer', 2000, '', 'bird.png', 'Single', 10, '2021-06-16 17:08:29', '2021-06-18 17:08:29');
 
 -- --------------------------------------------------------
 
@@ -155,7 +156,16 @@ INSERT INTO `reservations` (`id`, `Name`, `Mobile`, `Email`, `Gender`, `PaymentM
 (4, 'dmn', 12541, '.sdn .a', '', 'Cash', 1, '2021-06-11 08:00:00', 1, 100),
 (5, 'k', 255, 'lal', '', 'Cash', 1, '2021-06-11 08:00:00', 1, 100),
 (6, 'kah', 552, 'kwk@gmail.com', '', 'Cash', 1, '2021-06-11 08:00:00', 3, 300),
-(8, 'ii', 512, 'a', '', 'Cash', 1, '2021-06-11 08:00:00', 3, 300);
+(8, 'ii', 512, 'a', '', 'Cash', 1, '2021-06-11 08:00:00', 3, 300),
+(9, 'Aly', 15461244, 'Aly@gmail.com', '', 'Fawry', 1, '2021-06-20 08:00:00', 2, 200),
+(10, 'kljaahk', 14541, 'js@Gmail.com', '', 'Cash', 1, '2021-06-30 08:15:00', 2, 200),
+(11, 'Test', 510, 'Test@gmail.com', '', 'Cash', 1, '2021-06-23 09:00:00', 1, 100),
+(12, 'CC', 5101684, 'R@gmail.com', '', 'Fawry', 2, '2021-06-21 23:15:00', 4, 600),
+(13, 'Khaled', 21211484, 'Khaled@gmail.com', '', 'Cash', 1, '2021-06-20 08:00:00', 3, 300),
+(14, 'Gamed', 261541, 'kajd@gmail.com', '', 'Cash', 1, '2021-06-20 08:00:00', 1, 100),
+(15, 'OO', 541512, 'haled@gmail.com', '', 'Cash', 1, '2021-06-20 08:00:00', 3, 300),
+(16, 'Khaled', 1520, 'kjks@gmail.com', '', 'Cash', 2, '2021-06-21 20:16:08', 2, 300),
+(17, 'ejwkb', 513213, '5kdsknaw@gmal.com', '', 'Cash', 1, '2021-06-20 08:00:00', 2, 200);
 
 -- --------------------------------------------------------
 
@@ -181,7 +191,11 @@ INSERT INTO `reviews` (`id`, `ID_Ride`, `Review`, `Name`) VALUES
 (6, 0, 'reem', '123'),
 (7, 0, '', ''),
 (9, 2, 'Good', 'Khaled'),
-(10, 3, 'Great', 'Mai');
+(10, 3, 'Great', 'Mai'),
+(11, 1, 'Helw gedan', 'Khaled'),
+(12, 2, 'Nice', 'Mai'),
+(13, 3, 'Gamed', 'Aly'),
+(14, 3, 'Very Good Ride ', 'Reem');
 
 -- --------------------------------------------------------
 
@@ -203,7 +217,7 @@ CREATE TABLE `rides` (
 --
 
 INSERT INTO `rides` (`id`, `Name`, `Price`, `Description`, `Image`, `R_Type`) VALUES
-(1, 'Single Tubing Ride', 100, ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.', 's.jpeg', 'Single'),
+(1, 'Single Tubing Rides', 100, '    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.', 's.jpeg', 'Single'),
 (2, 'Couple Tubing Ride', 150, ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\r\n', 'c.jpeg', 'Couple'),
 (3, 'Group Tubing Ride', 200, ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\r\n', 'g.jpeg', 'Group');
 
@@ -227,11 +241,11 @@ CREATE TABLE `ridesinfo` (
 --
 
 INSERT INTO `ridesinfo` (`id`, `rideID`, `rideTime`, `rideDate`, `rideCapacity`, `currentCapacity`) VALUES
-(1, 1, '08:00:00', '2021-06-20', 10, 10),
-(2, 1, '09:00:00', '2021-06-23', 10, 10),
-(3, 1, '08:15:00', '2021-06-30', 10, 10),
-(4, 2, '23:15:00', '2021-06-21', 15, 15),
-(5, 2, '20:16:08', '2021-06-21', 15, 15),
+(1, 1, '08:00:00', '2021-06-20', 10, 5),
+(2, 1, '09:00:00', '2021-06-23', 10, 9),
+(3, 1, '08:15:00', '2021-06-30', 10, 8),
+(4, 2, '23:15:00', '2021-06-21', 15, 11),
+(5, 2, '20:16:08', '2021-06-21', 15, 13),
 (6, 3, '15:00:00', '2021-07-01', 20, 20),
 (7, 3, '13:00:00', '2021-07-09', 20, 20);
 
@@ -319,7 +333,7 @@ ALTER TABLE `videos`
 -- AUTO_INCREMENT for table `adminaccounts`
 --
 ALTER TABLE `adminaccounts`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=112;
 
 --
 -- AUTO_INCREMENT for table `contactus`
@@ -343,19 +357,19 @@ ALTER TABLE `images`
 -- AUTO_INCREMENT for table `offers`
 --
 ALTER TABLE `offers`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `reservations`
 --
 ALTER TABLE `reservations`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- AUTO_INCREMENT for table `reviews`
 --
 ALTER TABLE `reviews`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT for table `rides`
