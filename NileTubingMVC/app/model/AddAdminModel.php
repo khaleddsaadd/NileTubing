@@ -16,8 +16,6 @@ class AddAdmin extends Model
 
     function add($username,$password)
     {
-
-        // $sql = "INSERT INTO `adminaccounts`(`username`, `password`) VALUES (".$username.",'".$password."')";
          $sql = "INSERT INTO adminaccounts (`username`, `password`) VALUES ('".$username."','".$password."')";
         $result = $this->db->query($sql);
         if ($result)

@@ -46,7 +46,7 @@ class paymentController extends Controller
         $Quantity = $_GET['q'];
         $mail =$_REQUEST["Mail"];
         if (!filter_var($mail, FILTER_VALIDATE_EMAIL)) {
-        echo' <div class="alert alert-warning" role="alert" style="";>
+        echo' <div class="alert alert-warning" role="alert" style="position:relative; bottom:10%;";>
             Invalid Email format !
             </div>';
           }

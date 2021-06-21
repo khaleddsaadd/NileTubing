@@ -14,7 +14,9 @@ class AddAdminController extends Controller
         $specialChars = preg_match('@[^\w]@', $password);
 
 if(!$uppercase || !$lowercase || !$number || !$specialChars || strlen($password) < 8) {
-    echo '<script>alert("Password should be at least 8 characters in length and should include at least one upper case letter, one number, and one special character.")</script>';
+        echo' <div class="alert alert-warning" role="alert" style="";>
+            Password should be at least 8 characters in length and should include at least one upper case letter, one number, and one special character.
+            </div>';
     return;}
     else{ 
     	 $password=hash('ripemd160', $_REQUEST["password"]);
