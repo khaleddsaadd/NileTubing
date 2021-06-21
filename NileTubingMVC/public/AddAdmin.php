@@ -13,11 +13,7 @@ echo $view->output();
 
 if(isset($_POST['button']))
 {
-    $username=$_REQUEST["username"];
-    $password=$_REQUEST["password"];
-    $m=$model->add($username,$password);
-    
- echo "<script>alert('$m');</script>";
+   $controller->insert();
 }
 ?>
 

@@ -12,7 +12,6 @@ class AddAdmin extends Model
 
         $this->username = $username;
         $this->password = $password;
-        $this->add($username, $password);
     }
 
     function add($username,$password)
@@ -26,7 +25,6 @@ class AddAdmin extends Model
             return 'Done';
         }
         else{
-            return'Failed to Add Admin';
         }
      
     
