@@ -112,7 +112,7 @@ $Cimg= __ROOT__.'/view/Images/ContactUs.png';
     left: 8px;
     bottom: 11px;
     font-size: 24px;
-    line-height: 30px;
+    line-height: 40px;
     font-weight: 400;
     color: #5543ca;
     cursor: text;
