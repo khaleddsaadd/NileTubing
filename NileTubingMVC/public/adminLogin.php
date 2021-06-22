@@ -11,11 +11,6 @@ $view = new adminView($controller, $model);
 echo $view->output();
 
 
-/*$Alogin = new Admin();
-$Alogin->login($username, $password);
-$view = new adminView;
-echo $view->output();
-*/
 
 if(isset($_POST['button']))
 {

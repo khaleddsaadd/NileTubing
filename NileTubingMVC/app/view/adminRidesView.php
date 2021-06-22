@@ -83,14 +83,14 @@ class rView extends View
 
                         <div id="dd">
     
-                        <input type=time  id="time"  name="Stime"  value="" > 
+                        <input type=time  id="time"  name="Stime"  value=""  required=""> 
 
                         <br>
 
-                        <input type=date id="date" name="Sdate" value="" > 
+                        <input type=date id="date" name="Sdate" value=""  required="" > 
                         <br>
     
-                        <input type=text id="capacity" name="Scapacity" value="" placeholder="Capacity" > 
+                        <input type=text id="capacity" name="Scapacity" value="" placeholder="Capacity"  required=""> 
                         <br>
     
                         <input type="submit"  id="add" name="Sadd" class="btn btn-primary" value="Add">
@@ -155,14 +155,14 @@ class rView extends View
 
                     <div id="dd">
 
-                    <input type=time  id="time"  name="Ctime"  value="" > 
+                    <input type=time  id="time"  name="Ctime"  value=""  required=""> 
 
                     <br>
 
-                    <input type=date id="date" name="Cdate" value="" > 
+                    <input type=date id="date" name="Cdate" value=""  required=""> 
                     <br>
 
-                    <input type=text id="capacity" name="Ccapacity" value="" placeholder="Capacity" > 
+                    <input type=text id="capacity" name="Ccapacity" value="" placeholder="Capacity"  required="" > 
                     <br>
 
                     <input type="submit"  id="add" name="Cadd" class="btn btn-primary" value="Add">
@@ -225,14 +225,14 @@ class rView extends View
 
                     <div id="dd">
 
-                    <input type=time  id="time"  name="Gtime"  value="" > 
+                    <input type=time  id="time"  name="Gtime"  value=""  required=""> 
 
                     <br>
 
-                    <input type=date id="date" name="Gdate" value="" > 
+                    <input type=date id="date" name="Gdate" value=""  required=""> 
                     <br>
 
-                    <input type=text id="capacity" name="Gcapacity" value="" placeholder="Capacity" > 
+                    <input type=text id="capacity" name="Gcapacity" value="" placeholder="Capacity"  required=""> 
                     <br>
 
                     <input type="submit"  id="add" name="Gadd" class="btn btn-primary" value="Add">
@@ -254,7 +254,76 @@ class rView extends View
                 <div class="container-fluid">
                     <div class="row">
                         <label id="o" class="OfferEventText">Special Offers </label>
+
+                        <form name="offers" method="POST" action="">
+
+
+                        <div class="f">
+
+                        <div class="form-group">
+                        <label>Offer Name:</label>
+                        <input type=text  class="form-control" id="offername" name="offername" placeholder="Name"  required="">
+
+                        </div>
+                        
+
+                        <div class="form-group">
+                        <label>Offer Price:</label>
+                        <input type=text  class="form-control" id="offerprice" name="offerprice"  placeholder="Price" required="">
+
+                        </div>
+                        
+
+                        <div class="form-group">
+                        <label>Type:</label>
+                        <input type=text  class="form-control" id="offertype" name="offertype"  placeholder="Ride Type" required="">
+
+                        </div>
+                        
+
+                        <div class="form-group">
+                        <label>Capacity:</label>
+                        <input type=text   class="form-control" id="offercapacity" name="offercapacity" placeholder="Capacity"  required="">
+
+                        </div>
+                        
+
+                        <div class="form-group">
+                        <label>Start Date/Time:</label>
+                        <input type="datetime-local"  class="form-control"  id="startdate" name="startdate" required="">
+
+                        </div>
+                        
+
+                        <div class="form-group">
+                        <label>End Date/Time:</label>
+                        <input type="datetime-local"   class="form-control" id="enddate" name="enddate" required="">
+
+                        </div>
+
+                        
+
+                        <div class="form-group">
+                        <label>Event image:</label>
+                        </div>
+                        
+
+                        <input id=""  type="file" name="offerimage" required="" >
+                        
+                        <br>    
+
+
+
+                        <input type="submit"  id="offers" name="offers" class="btn btn-primary"" value="Add">
+
+                    
+
+
+
+
                     </div>
+                    </div>
+                    </form>
                 </div>
             </div>';
         return $str;

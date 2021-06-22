@@ -24,6 +24,7 @@ class adminRidesController extends Controller
        $rideDate = $_REQUEST['Sdate'];
        $rideCapacity = $_REQUEST['Scapacity'];
        $currentCapacity = $_REQUEST['Scapacity'];
+       
        $this->model->schdule($rideTime,$rideDate,$rideCapacity, $currentCapacity);
     }
 
@@ -73,6 +74,25 @@ class adminRidesController extends Controller
        $this->model->schdule($rideTime,$rideDate,$rideCapacity, $currentCapacity);
     }
 
+
+    public function offers()
+    {
+       $offerName = $_REQUEST['offername'];
+       $offerimg = $_REQUEST['offerimage'];
+       $offerCapacity = $_REQUEST['offercapacity'];
+       $offerimg = $_REQUEST['offerimage'];
+       $offerPrice = $_REQUEST['offerprice'];
+       $type = $_REQUEST['offertype'];
+       $startdate = $_REQUEST['startdate'];
+       $enddate = $_REQUEST['enddate'];
+     
+
+
+
+       
+
+       $this->model->offers( $offerName,$offerPrice, $offerimg, $type, $offerCapacity, $startdate,$enddate);
+    }
     
 }
 

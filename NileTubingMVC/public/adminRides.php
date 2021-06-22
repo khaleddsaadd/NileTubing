@@ -78,4 +78,12 @@ $model = new adminRides();
 $controller=new adminRidesController($model);
 $v = new rView($controller, $model);
 echo $v->offers();
+
+if (isset($_POST['offers'])) 
+{
+	
+	 $controller->offers();
+     
+	
+}
 ?>

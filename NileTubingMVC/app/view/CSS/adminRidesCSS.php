@@ -268,4 +268,37 @@ right:20%;
     
     color:white;
 }
+
+
+
+.form-control
+{
+    height:15%;
+
+}
+.f
+{
+    position:absolute;
+    margin-top:7%;
+    left:37%;
+  
+    
+}
+
+.form-group
+{
+    font-size:20px;
+    color: #1F3351;
+    font-family: 'Hind';
+}
+
+#offers
+{
+    position:absolute;
+    width:50%;
+   
+    font-size:18px;
+    text-align:center;
+    left:20%;
+}
 </style>

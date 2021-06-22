@@ -11,7 +11,15 @@ class adminRides extends Model
     public $rideTime;
     public $rideDate;
     public $rideCapacity; 
-    public $currentCapacity;  
+    public $currentCapacity; 
+    public $offerName;
+    public $offerPrice; 
+    public $offerimg;
+    public $type;
+    public $offerCapacity;
+    public $startdate;
+    public $enddate;
+
     
 
     function __construct($R_Type="")
@@ -105,7 +113,7 @@ class adminRides extends Model
     {   
         $Rid = $this->id;
 
-		$sql = "INSERT INTO ridesinfo (rideID, rideTime, rideDate, rideCapacity, currentCapacity) VALUES ( '$Rid', '$rideTime', '$rideDate', '$rideCapacity', '$currentCapacity')";
+		$sql = "INSERT INTO ridesinfo (rideID, rideTime, rideDate, rideCapacity, currentCapacity) VALUES ( '$Rid', '$rideTime', '$rideDate', '$rideCapacity', '$currentCapacity','$enddate')";
 		if($this->db->query($sql) === true)
         {
 			echo '<script> alert("Records inserted successfully.") </script>';
@@ -115,5 +123,21 @@ class adminRides extends Model
 			echo "ERROR: Could not able to execute $sql. " . $conn->error;
 		}
 	}
+
+
+    function offers( $offerName,$offerPrice, $offerimg, $type, $offerCapacity,$startdate,$enddate)
+    {   
+
+		$sql = "INSERT INTO offers (Name, Price, Image, Type, Capacity,Start_Date, End_Dare) VALUES ( '$offerName', '$offerPrice','$offerimg', '$type', '$offerCapacity','$startdate','$enddate')";
+		if($this->db->query($sql) === true)
+        {
+			echo '<script> alert("Records inserted successfully.") </script>';
+		} 
+		else
+        {
+			echo "ERROR: Could not able to execute $sql. " . $conn->error;
+		}
+	}
+
 }
 ?>
